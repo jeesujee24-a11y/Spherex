@@ -568,3 +568,11 @@ else:
     @app.get("/")
     async def root():
         return {"message": "SPHEREx Sky Viewer Backend running. Static files not yet created."}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    host = os.environ.get("HOST", "127.0.0.1")
+    port = int(os.environ.get("PORT", "8000"))
+    logger.info(f"Starting server on http://{host}:{port}")
+    uvicorn.run("app:app", host=host, port=port, reload=False)

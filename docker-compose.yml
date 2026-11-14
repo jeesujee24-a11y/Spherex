@@ -1,0 +1,12 @@
+services:
+  spherex-viewer:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - SPHEREX_OFFLINE=0
+    volumes:
+      - ./cache:/app/cache
+    restart: unless-stopped
