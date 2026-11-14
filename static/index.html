@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPHEREx Sky Viewer — NASA Space Apps</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-group">
+        <div class="sphere-icon" aria-hidden="true"></div>
+        <div>
+          <h1 class="app-title">SPHEREx Sky Viewer</h1>
+          <p class="app-subtitle">Observing the Dynamic Infrared Sky Across Time & Wavelength</p>
+        </div>
+      </div>
+      <div class="header-badge">NASA Space Apps Challenge</div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Offline / Fallback Notice Banner -->
+    <div id="fallbackBanner" class="banner banner-warning hidden" role="alert">
+      <span class="banner-icon" aria-hidden="true">⚠️</span>
+      <span id="fallbackText">Showing sample data because live fetch failed.</span>
+    </div>
+
+    <!-- Controls & Search Bar -->
+    <section class="controls-card" aria-label="Search and Observation Controls">
+      <div class="controls-grid">
+        <!-- Search Target -->
+        <div class="control-field search-field">
+          <label for="targetInput">Target / Object Name or RA, Dec</label>
+          <div class="input-with-button">
+            <input type="text" id="targetInput" placeholder="e.g. M101, NGC 6543, or 210.80, 54.35" value="M101" autocomplete="off" spellcheck="false">
+            <button id="searchBtn" class="btn btn-primary" type="button">Search</button>
+          </div>
+        </div>
+
+        <!-- Detector Dropdown -->
+        <div class="control-field">
+          <label for="detectorSelect">Detector Band</label>
+          <select id="detectorSelect" aria-label="Detector Bandpass">
+            <option value="SPHEREx-D2">SPHEREx-D2 (1.50 - 2.42 μm)</option>
+            <option value="SPHEREx-D1">SPHEREx-D1 (0.75 - 1.11 μm)</option>
+            <option value="SPHEREx-D3">SPHEREx-D3 (2.42 - 3.82 μm)</option>
+            <option value="SPHEREx-D4">SPHEREx-D4 (3.82 - 4.42 μm)</option>
+            <option value="SPHEREx-D5">SPHEREx-D5 (4.42 - 4.90 μm)</option>
+            <option value="SPHEREx-D6">SPHEREx-D6 (4.90 - 5.00 μm)</option>
+          </select>
+        </div>
+
+        <!-- Presets -->
+        <div class="control-field">
+          <label>Presets (≥ 2 frames)</label>
+          <div class="preset-buttons">
+            <button type="button" class="btn btn-preset active" data-name="M101" data-band="SPHEREx-D2">M101 (Pinwheel)</button>
+            <button type="button" class="btn btn-preset" data-name="NGC 6543" data-band="SPHEREx-D3">NGC 6543 (Cat's Eye)</button>
+            <button type="button" class="btn btn-preset" id="sampleModeBtn">Offline Demo</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Status Line -->
+      <div class="status-bar" id="statusBar" aria-live="polite" role="status">
+        <span class="status-indicator ready" id="statusDot"></span>
+        <span id="statusMessage">Ready. Enter an astronomical target or click a preset to view SPHEREx observations.</span>
+      </div>
+    </section>
+
+    <!-- Main Viewer Layout: Image + Player -->
+    <div class="viewer-layout">
+      <!-- Left / Top: Interactive Sky Display -->
+      <section class="viewer-card" aria-label="Sky Image Display">
+        <div class="viewer-header">
+          <div class="frame-info-header">
+            <span class="badge" id="frameCounterBadge">Frame 0 / 0</span>
+            <span class="badge badge-release" id="releaseBadge">DR1</span>
+            <span class="badge badge-detector" id="detectorBadge">SPHEREx-D2</span>
+          </div>
+          <div class="view-mode-toggle">
+            <button type="button" id="blinkBtn" class="btn btn-sm btn-outline" title="Toggle Blink Compare (Hotkey: B)">Blink Compare</button>
+            <button type="button" id="fullscreenBtn" class="btn btn-sm btn-outline" title="Toggle Fullscreen">Fit / Zoom</button>
+          </div>
+        </div>
+
+        <div class="image-stage" id="imageStage">
+          <!-- Main Display Image -->
+          <img id="mainImage" class="sky-image pixelated" src="" alt="SPHEREx sky observation frame" style="display: none;">
+
+          <!-- Blink Comparison Image -->
+          <img id="blinkImage" class="sky-image pixelated blink-overlay" src="" alt="SPHEREx comparison frame" style="display: none;">
+
+          <!-- Loading Spinner -->
+          <div id="imageSpinner" class="stage-overlay hidden">
+            <div class="spinner"></div>
+            <p id="spinnerText">Loading observation...</p>
+          </div>
+
+          <!-- Empty State -->
+          <div id="emptyState" class="stage-empty">
+            <div class="empty-icon" aria-hidden="true">🔭</div>
+            <h3>No SPHEREx Coverage Found</h3>
+            <p id="emptyDetail">No observations overlap the requested position for this detector band. Try another detector (e.g. D1–D6) or a known preset target.</p>
+          </div>
+
+          <!-- Error State -->
+          <div id="errorState" class="stage-error hidden">
+            <div class="error-icon" aria-hidden="true">⚠️</div>
+            <h3 id="errorTitle">Unable to Load Observation</h3>
+            <p id="errorMessage">An unexpected error occurred while communicating with the IRSA archive.</p>
+            <button type="button" id="retryBtn" class="btn btn-secondary">Retry</button>
+          </div>
+
+          <!-- Blink Indicator Overlay -->
+          <div id="blinkIndicator" class="blink-tag hidden">BLINK MODE ACTIVE (Frame A ⇄ Frame B)</div>
+        </div>
+
+        <!-- Player & Time Slider Controls -->
+        <div class="player-controls">
+          <div class="slider-row">
+            <label for="timeSlider" class="sr-only">Observation Time Slider</label>
+            <input type="range" id="timeSlider" min="0" max="0" value="0" step="1" aria-label="Select observation time epoch" disabled>
+          </div>
+
+          <div class="metadata-row">
+            <div class="meta-item">
+              <span class="meta-label">Observation Date:</span>
+              <span class="meta-value" id="dateDisplay">—</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Central Wavelength:</span>
+              <span class="meta-value highlight" id="waveDisplay">— μm</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Version / MJD:</span>
+              <span class="meta-value" id="versionDisplay">—</span>
+            </div>
+          </div>
+
+          <div class="playback-buttons">
+            <button type="button" id="prevBtn" class="btn btn-icon" title="Previous frame (Left arrow)" aria-label="Previous frame" disabled>⏮</button>
+            <button type="button" id="playBtn" class="btn btn-primary btn-play" title="Play animation (Spacebar)" aria-label="Play animation" disabled>▶ Play</button>
+            <button type="button" id="nextBtn" class="btn btn-icon" title="Next frame (Right arrow)" aria-label="Next frame" disabled>⏭</button>
+            
+            <div class="speed-control">
+              <label for="speedSelect">Speed:</label>
+              <select id="speedSelect">
+                <option value="1">1 fps</option>
+                <option value="2" selected>2 fps</option>
+                <option value="4">4 fps</option>
+                <option value="8">8 fps</option>
+              </select>
+            </div>
+
+            <!-- Blink Frame Choosers -->
+            <div class="blink-controls">
+              <label for="blinkFrameA">Frame A:</label>
+              <select id="blinkFrameA" aria-label="Blink comparison frame A" disabled></select>
+              <label for="blinkFrameB">Frame B:</label>
+              <select id="blinkFrameB" aria-label="Blink comparison frame B" disabled></select>
+            </div>
+          </div>
+
+          <!-- Keyboard Shortcuts Legend -->
+          <div class="shortcuts-legend">
+            <span><strong>Shortcuts:</strong></span>
+            <kbd>Space</kbd> Play/Pause
+            <kbd>←</kbd> <kbd>→</kbd> Step Frame
+            <kbd>B</kbd> Toggle Blink
+          </div>
+        </div>
+      </section>
+
+      <!-- Right / Bottom: Explanatory & Scientific Context -->
+      <aside class="info-sidebar">
+        <!-- "What am I looking at?" Panel -->
+        <article class="info-card">
+          <h2>What am I looking at?</h2>
+          <p>
+            <strong>SPHEREx</strong> (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) is a NASA Medium Explorer mission mapping the entire sky in 102 near-infrared spectral channels from <strong>0.75 to 5.0 micrometers</strong>.
+          </p>
+          <p>
+            Unlike traditional broadband astronomy cameras, SPHEREx uses <em>Linear Variable Filters (LVFs)</em> mounted directly above six detector arrays (D1 to D6). The observed wavelength continuously varies across the surface of each detector.
+          </p>
+          <div class="notice-box">
+            <strong>⚠️ Scientific Note on Temporal Changes:</strong>
+            <p>
+              Each frame shown here represents a different observation epoch as SPHEREx scanned the sky. Because the target landed on slightly different pixel coordinates across passes, <strong>each frame captures a slightly different slice of the infrared spectrum</strong>. Apparent brightness differences between frames mix true temporal variations with spectral spectral-energy differences.
+            </p>
+          </div>
+        </article>
+
+        <!-- Technical Details & Credits -->
+        <article class="info-card">
+          <h3>Data & Mission Credits</h3>
+          <ul class="credits-list">
+            <li><strong>Observatory:</strong> NASA / Jet Propulsion Laboratory (JPL-Caltech)</li>
+            <li><strong>Archive & TAP Service:</strong> NASA/IPAC Infrared Science Archive (IRSA)</li>
+            <li><strong>Data Releases:</strong> DR1 (Data Release 1) &amp; QR3 (Quick Release 3)</li>
+            <li><strong>Challenge:</strong> NASA International Space Apps Challenge</li>
+          </ul>
+          <p class="disclaimer">
+            <em>Disclaimer: Unofficial tool created for the NASA Space Apps Challenge; not officially affiliated with NASA or JPL-Caltech.</em>
+          </p>
+        </article>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p>SPHEREx Sky Viewer • Public Near-Infrared Sky Exploration • Data from NASA/IPAC IRSA</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
