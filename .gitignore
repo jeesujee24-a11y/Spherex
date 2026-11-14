@@ -5,3 +5,5 @@ cache/
 *.pyo
 .pytest_cache/
 server.log
+*.fits
+temp_wheels/
