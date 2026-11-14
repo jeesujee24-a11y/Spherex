@@ -1,6 +1,8 @@
-# One-Line Start Commands
+# One-Line Start & Deployment Commands
 
-Quick start commands for running the SPHEREx Sky Viewer across different platforms.
+🌐 **Live Public Deployment:** [https://spherex-zv5t.onrender.com/](https://spherex-zv5t.onrender.com/)
+
+Quick start commands for running the SPHEREx Sky Viewer locally or deploying across platforms.
 
 ---
 

@@ -96,8 +96,11 @@
 
   // ─── Fetch Bands List ──────────────────────────────────────────────────────
   async function loadBands() {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 4000);
     try {
-      const resp = await fetch('/api/bands');
+      const resp = await fetch('/api/bands', { signal: controller.signal });
+      clearTimeout(timer);
       if (resp.ok) {
         const data = await resp.json();
         if (data.bands && data.bands.length > 0) {
@@ -115,6 +118,7 @@
         }
       }
     } catch (e) {
+      clearTimeout(timer);
       console.warn('Using default detector band list:', e);
     }
   }
@@ -668,7 +672,7 @@
   // ─── Initialization ────────────────────────────────────────────────────────
   async function init() {
     initEvents();
-    await loadBands();
+    loadBands(); // Non-blocking: fetch in background, don't stall initial search
 
     // Respect prefers-reduced-motion: never autoplay if user prefers reduced motion
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

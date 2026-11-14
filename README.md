@@ -3,6 +3,9 @@
 > **A public-facing web tool to display images of the sky from the NASA SPHEREx mission, making it easy for anyone to quickly see how they change over time.**
 > *Created for the NASA Space Apps Challenge.*
 
+🌐 **Live Public Web Application:** [https://spherex-zv5t.onrender.com/](https://spherex-zv5t.onrender.com/)  
+📦 **GitHub Repository:** [https://github.com/jeesujee24-a11y/Spherex](https://github.com/jeesujee24-a11y/Spherex)
+
 ---
 
 ## Disclaimer

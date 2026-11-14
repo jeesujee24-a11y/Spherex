@@ -48,13 +48,6 @@ USER_AGENT = "SPHERExSkyViewer/1.0 (NASA Space Apps Challenge; +https://github.c
 
 _download_semaphore = asyncio.Semaphore(UPSTREAM_CONCURRENCY)
 
-# In-memory caches
-_observations_cache: Dict[str, tuple[float, dict]] = {}
-_meta_cache: Dict[str, dict] = {}
-_frame_registry: Dict[str, dict] = {}
-_bands_cache: Optional[List[str]] = None
-_bands_cache_time: float = 0
-
 ALLOWED_BANDS = [
     "SPHEREx-D1",
     "SPHEREx-D2",
@@ -63,6 +56,13 @@ ALLOWED_BANDS = [
     "SPHEREx-D5",
     "SPHEREx-D6",
 ]
+
+# In-memory caches
+_observations_cache: Dict[str, tuple[float, dict]] = {}
+_meta_cache: Dict[str, dict] = {}
+_frame_registry: Dict[str, dict] = {}
+_bands_cache: Optional[List[str]] = list(ALLOWED_BANDS)
+_bands_cache_time: float = time.time()
 
 app = FastAPI(title="SPHEREx Sky Viewer API", version="1.0.0")
 
@@ -299,7 +299,7 @@ async def get_bands():
         return [b for b in raw_bands if b.startswith("SPHEREx-D")]
 
     try:
-        bands = await asyncio.to_thread(_query)
+        bands = await asyncio.wait_for(asyncio.to_thread(_query), timeout=3.0)
         if bands:
             _bands_cache = bands
             _bands_cache_time = time.time()
