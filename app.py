@@ -233,6 +233,34 @@ def process_image_array(data: np.ndarray, vmin=None, vmax=None) -> bytes:
     return buf.getvalue()
 
 
+def make_unavailable_placeholder(frame_id: str, reason: str) -> bytes:
+    """Generate an informative fallback image when upstream IRSA cutout is unavailable."""
+    from PIL import Image, ImageDraw
+    import io
+    img = Image.new("L", (PNG_SIZE, PNG_SIZE), color=18)
+    draw = ImageDraw.Draw(img)
+    # Draw subtle grid lines
+    for coord in range(0, PNG_SIZE, 64):
+        draw.line([(coord, 0), (coord, PNG_SIZE)], fill=35)
+        draw.line([(0, coord), (PNG_SIZE, coord)], fill=35)
+    # Draw crosshair
+    mid = PNG_SIZE // 2
+    draw.line([(mid - 16, mid), (mid + 16, mid)], fill=80)
+    draw.line([(mid, mid - 16), (mid, mid + 16)], fill=80)
+    
+    # Text annotations
+    draw.text((24, 180), "SPHEREx CUTOUT UNAVAILABLE", fill=230)
+    draw.text((24, 215), f"Frame ID: {frame_id}", fill=160)
+    clean_reason = (reason[:55] + "...") if len(reason) > 55 else reason
+    draw.text((24, 245), f"Reason: {clean_reason}", fill=140)
+    draw.text((24, 290), "IRSA upstream archive did not return FITS data.", fill=120)
+    draw.text((24, 320), "Step forward or backward to view adjacent epochs.", fill=190)
+
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    return buf.getvalue()
+
+
 # ─── API Endpoints ───────────────────────────────────────────────────────────
 
 @app.get("/api/resolve")
@@ -335,7 +363,13 @@ async def get_observations(
         raise HTTPException(status_code=502, detail=f"TAP query failed: {str(e)}")
 
     observations = []
-    for row in table:
+    rows = list(table)
+    if len(rows) > 120:
+        step = len(rows) / 120.0
+        indices = [int(i * step) for i in range(120)]
+        rows = [rows[i] for i in indices]
+
+    for row in rows:
         raw_uri = str(row["raw_uri"])
         uri = str(row["uri"])
         mjd = float(row["time_bounds_lower"])
@@ -495,9 +529,12 @@ async def get_image(frame_id: str):
             cached_png.write_bytes(png_bytes)
             return Response(content=png_bytes, media_type="image/png")
         except ValueError as ve:
-            raise HTTPException(status_code=422, detail=f"Image processing skipped: {str(ve)}")
+            placeholder_bytes = make_unavailable_placeholder(frame_id, str(ve))
+            return Response(content=placeholder_bytes, media_type="image/png", headers={"X-Frame-Status": "invalid"})
         except Exception as e:
-            raise HTTPException(status_code=502, detail=f"Failed to fetch image: {str(e)}")
+            logger.warning(f"Cutout unavailable for {frame_id}: {e}")
+            placeholder_bytes = make_unavailable_placeholder(frame_id, str(e))
+            return Response(content=placeholder_bytes, media_type="image/png", headers={"X-Frame-Status": "unavailable"})
 
 
 @app.get("/api/sample")

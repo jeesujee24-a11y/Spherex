@@ -224,11 +224,9 @@
     // Enable buttons
     disableControls(false);
 
-    // Progressive loading: Load the very first frame immediately!
-    loadAndDisplayFrame(0, true).then(() => {
-      // Start background fetch of remaining frames
-      loadRemainingFramesProgressively();
-    });
+    // Progressive loading: Load the first frame and concurrently load remaining frames
+    loadAndDisplayFrame(0, true);
+    loadRemainingFramesProgressively();
   }
 
   // ─── Populate Blink Select Dropdowns ──────────────────────────────────────
@@ -270,9 +268,7 @@
       return;
     }
 
-    if (isFirst) {
-      showSpinner('Downloading and rendering first frame...');
-    }
+    showSpinner(isFirst ? 'Downloading and rendering initial frame...' : `Loading frame #${index + 1}...`);
 
     try {
       const imgUrl = `/api/image/${obs.id}.png`;
@@ -281,7 +277,7 @@
 
       await new Promise((resolve, reject) => {
         img.onload = () => resolve(img);
-        img.onerror = () => reject(new Error(`Failed to load image for frame ${obs.id}`));
+        img.onerror = () => reject(new Error(`Frame ${obs.id} image failed to load`));
       });
 
       state.imageCache.set(obs.id, img);
@@ -300,13 +296,15 @@
       console.warn(`Error loading frame ${obs.id}:`, e);
       if (state.currentIndex === index) {
         hideSpinner();
-        showErrorState('Frame Load Warning', `Frame #${index + 1} could not be rendered: ${e.message}`);
+        setStatus(`Frame #${index + 1} unavailable from IRSA archive: ${e.message}`, 'loading');
       }
     }
   }
 
   // ─── Display Image on Stage ────────────────────────────────────────────────
   function displayImage(imgElement) {
+    elements.emptyState.classList.add('hidden');
+    elements.errorState.classList.add('hidden');
     elements.mainImage.src = imgElement.src;
     elements.mainImage.style.display = 'block';
     elements.mainImage.alt = `SPHEREx frame at ${elements.dateDisplay.textContent}, wavelength ${elements.waveDisplay.textContent}`;
