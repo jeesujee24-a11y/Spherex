@@ -1,10 +1,46 @@
-.venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets (Prevent leaking keys or local settings)
+.env
+.env.*
+*.env
+!.env.example
+
+# Local Caches & Test Artifacts
 cache/
-*.pyc
-*.pyo
 .pytest_cache/
+.coverage
+htmlcov/
+
+# FITS Large Astronomical Binaries & Local Builds
+*.fits
+*.fit
+*.fts
+temp_wheels/
+
+# Server Logs
+*.log
 server.log
 server_err.log
-*.fits
-temp_wheels/
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
