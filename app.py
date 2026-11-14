@@ -525,6 +525,7 @@ def load_sample_data() -> Optional[dict]:
 
 # ─── Static files (MUST BE MOUNTED LAST) ─────────────────────────────────────
 if STATIC_DIR.exists():
+    app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static_dir")
     app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="static")
 else:
     @app.get("/")
