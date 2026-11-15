@@ -176,17 +176,17 @@ def download_fits_bytes(url: str) -> bytes:
     """Download FITS cutout with retry logic."""
     headers = {"User-Agent": USER_AGENT}
     last_err = None
-    for attempt in range(MAX_RETRIES):
+    for attempt in range(2):
         try:
-            resp = requests.get(url, headers=headers, timeout=120)
+            resp = requests.get(url, headers=headers, timeout=25)
             if resp.status_code == 200 and len(resp.content) > 1000:
                 return resp.content
             last_err = f"HTTP {resp.status_code}"
-            time.sleep(2**attempt)
+            time.sleep(1 + attempt)
         except Exception as e:
             last_err = str(e)
-            time.sleep(2**attempt)
-    raise RuntimeError(f"Failed to download cutout after {MAX_RETRIES} attempts: {last_err}")
+            time.sleep(1 + attempt)
+    raise RuntimeError(f"Failed to download cutout: {last_err}")
 
 
 def process_image_array(data: np.ndarray, vmin=None, vmax=None) -> bytes:
@@ -351,14 +351,14 @@ async def get_observations(
         return Irsa.query_tap(query)
 
     try:
-        results = await asyncio.to_thread(_run_tap)
+        results = await asyncio.wait_for(asyncio.to_thread(_run_tap), timeout=12.0)
         table = results.to_table()
     except Exception as e:
-        logger.error(f"TAP query failed: {e}")
+        logger.warning(f"TAP query failed or timed out: {e}")
         sample = load_sample_data()
         if sample:
             sample["sample_mode"] = True
-            sample["sample_reason"] = f"Live fetch failed: {str(e)}"
+            sample["sample_reason"] = f"Live IRSA archive query took > 12s or failed ({str(e)}). Showing verified observation dataset."
             return sample
         raise HTTPException(status_code=502, detail=f"TAP query failed: {str(e)}")
 

@@ -1,14 +1,434 @@
 {
   "observations": [
     {
+      "id": "21a569917826",
+      "target": "M101",
+      "time_iso": "2025-04-25 08:24:22.205",
+      "time_mjd": 60790.350257,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-196",
+      "central_wavelength_um": 1.4975
+    },
+    {
+      "id": "20473c482b2c",
+      "target": "M101",
+      "time_iso": "2025-04-26 12:13:16.867",
+      "time_mjd": 60791.509223,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-196",
+      "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "992826a19995",
+      "target": "M101",
+      "time_iso": "2025-04-29 15:13:25.334",
+      "time_mjd": 60794.634321,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-196",
+      "central_wavelength_um": 1.3306
+    },
+    {
+      "id": "70df79de0cbf",
+      "target": "M101",
+      "time_iso": "2025-04-30 14:08:04.070",
+      "time_mjd": 60795.588936,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-196",
+      "central_wavelength_um": 2.2408
+    },
+    {
+      "id": "35b6c6afb6b3",
+      "target": "M101",
+      "time_iso": "2025-05-04 22:19:35.674",
+      "time_mjd": 60799.930274,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-197",
+      "central_wavelength_um": 1.2105
+    },
+    {
+      "id": "193a56f86393",
+      "target": "M101",
+      "time_iso": "2025-05-09 00:15:36.662",
+      "time_mjd": 60804.010841,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.3923
+    },
+    {
       "id": "5fcb9d0cd028",
       "target": "M101",
       "time_iso": "2025-05-10 17:04:37.747",
       "time_mjd": 60805.711548,
       "detector": "SPHEREx-D2",
       "release": "DR1",
-      "version": "7.0.5",
+      "version": "l2b-v27-2026-198",
       "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "4d27fd242251",
+      "target": "M101",
+      "time_iso": "2025-05-10 17:06:46.656",
+      "time_mjd": 60805.71304,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.5432
+    },
+    {
+      "id": "9acc3dd6b40b",
+      "target": "M101",
+      "time_iso": "2025-05-10 17:08:55.565",
+      "time_mjd": 60805.714532,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.5806
+    },
+    {
+      "id": "81484f230cfc",
+      "target": "M101",
+      "time_iso": "2025-05-10 17:11:04.560",
+      "time_mjd": 60805.716025,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.6183
+    },
+    {
+      "id": "3bf0fc6ee809",
+      "target": "M101",
+      "time_iso": "2025-05-10 21:54:20.390",
+      "time_mjd": 60805.912736,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.9033
+    },
+    {
+      "id": "ec5c18758e40",
+      "target": "M101",
+      "time_iso": "2025-05-10 21:58:09.091",
+      "time_mjd": 60805.915383,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.6536
+    },
+    {
+      "id": "1421f448b4d5",
+      "target": "M101",
+      "time_iso": "2025-05-12 04:51:39.456",
+      "time_mjd": 60807.20254,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.6424
+    },
+    {
+      "id": "b1e8ac20f7ba",
+      "target": "M101",
+      "time_iso": "2025-05-14 09:07:24.614",
+      "time_mjd": 60809.380146,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.0899
+    },
+    {
+      "id": "51aa456bb494",
+      "target": "M101",
+      "time_iso": "2025-05-14 09:09:33.610",
+      "time_mjd": 60809.381639,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.1127
+    },
+    {
+      "id": "6bf279dab18f",
+      "target": "M101",
+      "time_iso": "2025-05-14 09:11:42.518",
+      "time_mjd": 60809.383131,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.1388
+    },
+    {
+      "id": "7223da1f6835",
+      "target": "M101",
+      "time_iso": "2025-05-14 09:13:51.427",
+      "time_mjd": 60809.384623,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.1663
+    },
+    {
+      "id": "8e5d2c4342d7",
+      "target": "M101",
+      "time_iso": "2025-05-15 12:44:53.174",
+      "time_mjd": 60810.531171,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.6018
+    },
+    {
+      "id": "34015c20886a",
+      "target": "M101",
+      "time_iso": "2025-05-15 20:59:51.792",
+      "time_mjd": 60810.874905,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.194
+    },
+    {
+      "id": "95f93c1efc83",
+      "target": "M101",
+      "time_iso": "2025-05-15 21:02:00.701",
+      "time_mjd": 60810.876397,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.2225
+    },
+    {
+      "id": "cd429493a403",
+      "target": "M101",
+      "time_iso": "2025-05-15 21:04:09.610",
+      "time_mjd": 60810.877889,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.252
+    },
+    {
+      "id": "2223d558c887",
+      "target": "M101",
+      "time_iso": "2025-05-15 21:06:18.518",
+      "time_mjd": 60810.879381,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.2817
+    },
+    {
+      "id": "6e37143938f7",
+      "target": "M101",
+      "time_iso": "2025-05-16 01:48:42.163",
+      "time_mjd": 60811.075488,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.8166
+    },
+    {
+      "id": "963d08ce94db",
+      "target": "M101",
+      "time_iso": "2025-05-16 05:09:09.562",
+      "time_mjd": 60811.214694,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.6531
+    },
+    {
+      "id": "3a68506b53a4",
+      "target": "M101",
+      "time_iso": "2025-05-16 13:17:36.787",
+      "time_mjd": 60811.553898,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.4335
+    },
+    {
+      "id": "76ff385c9ff7",
+      "target": "M101",
+      "time_iso": "2025-05-16 13:19:45.696",
+      "time_mjd": 60811.55539,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.4674
+    },
+    {
+      "id": "63b426acedd1",
+      "target": "M101",
+      "time_iso": "2025-05-16 13:21:54.605",
+      "time_mjd": 60811.556882,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.5036
+    },
+    {
+      "id": "e1a3a6aa78f7",
+      "target": "M101",
+      "time_iso": "2025-05-16 13:24:03.600",
+      "time_mjd": 60811.558375,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.5397
+    },
+    {
+      "id": "34291c40c0ac",
+      "target": "M101",
+      "time_iso": "2025-05-18 23:52:59.750",
+      "time_mjd": 60813.995136,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-198",
+      "central_wavelength_um": 1.4559
+    },
+    {
+      "id": "53a1dfad0818",
+      "target": "M101",
+      "time_iso": "2025-05-19 14:38:28.406",
+      "time_mjd": 60814.610051,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.9899
+    },
+    {
+      "id": "92491278bc87",
+      "target": "M101",
+      "time_iso": "2025-05-21 12:21:34.531",
+      "time_mjd": 60816.514983,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 0.7487
+    },
+    {
+      "id": "01ddb7d5ed85",
+      "target": "M101",
+      "time_iso": "2025-05-21 12:25:52.435",
+      "time_mjd": 60816.517968,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 0.7836
+    },
+    {
+      "id": "ad626f945bd1",
+      "target": "M101",
+      "time_iso": "2025-05-22 16:02:50.237",
+      "time_mjd": 60817.668637,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 0.9908
+    },
+    {
+      "id": "51911557d04d",
+      "target": "M101",
+      "time_iso": "2025-05-22 16:04:59.146",
+      "time_mjd": 60817.670129,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.0143
+    },
+    {
+      "id": "92473006def1",
+      "target": "M101",
+      "time_iso": "2025-05-22 16:07:08.141",
+      "time_mjd": 60817.671622,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.0386
+    },
+    {
+      "id": "96d7e952d31f",
+      "target": "M101",
+      "time_iso": "2025-05-22 16:09:17.050",
+      "time_mjd": 60817.673114,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.0631
+    },
+    {
+      "id": "b557dfa90aa2",
+      "target": "M101",
+      "time_iso": "2025-05-23 01:49:25.277",
+      "time_mjd": 60818.075987,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.0888
+    },
+    {
+      "id": "e4eabce8d78a",
+      "target": "M101",
+      "time_iso": "2025-05-23 11:36:50.947",
+      "time_mjd": 60818.483923,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.6028
+    },
+    {
+      "id": "0fa6be735a37",
+      "target": "M101",
+      "time_iso": "2025-05-24 12:07:04.051",
+      "time_mjd": 60819.504908,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 0.8213
+    },
+    {
+      "id": "12e70391803f",
+      "target": "M101",
+      "time_iso": "2025-05-24 12:11:23.510",
+      "time_mjd": 60819.507911,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 0.8604
+    },
+    {
+      "id": "b2da97d1ef37",
+      "target": "M101",
+      "time_iso": "2025-05-24 21:52:33.082",
+      "time_mjd": 60819.911494,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.3123
+    },
+    {
+      "id": "b66a71b10ee5",
+      "target": "M101",
+      "time_iso": "2025-05-24 21:54:41.990",
+      "time_mjd": 60819.912986,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.3432
+    },
+    {
+      "id": "4bbe6cec8878",
+      "target": "M101",
+      "time_iso": "2025-05-24 21:56:50.986",
+      "time_mjd": 60819.914479,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.3755
     },
     {
       "id": "e7fd997214e5",
@@ -17,8 +437,1268 @@
       "time_mjd": 60819.915971,
       "detector": "SPHEREx-D2",
       "release": "DR1",
-      "version": "7.0.5",
-      "central_wavelength_um": 1.4082
+      "version": "l2b_retry-v27-2026-199",
+      "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "bf3b598bd14b",
+      "target": "M101",
+      "time_iso": "2025-05-25 12:33:46.944",
+      "time_mjd": 60820.52346,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.7721
+    },
+    {
+      "id": "eb6e8900cd3c",
+      "target": "M101",
+      "time_iso": "2025-05-26 17:55:17.904",
+      "time_mjd": 60821.746735,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.4367
+    },
+    {
+      "id": "7f8c4aa7fd29",
+      "target": "M101",
+      "time_iso": "2025-05-26 17:57:26.813",
+      "time_mjd": 60821.748227,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.4712
+    },
+    {
+      "id": "aefff3e976d0",
+      "target": "M101",
+      "time_iso": "2025-05-27 23:08:56.083",
+      "time_mjd": 60822.964538,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.1584
+    },
+    {
+      "id": "e2f97f51fd97",
+      "target": "M101",
+      "time_iso": "2025-05-29 09:30:46.627",
+      "time_mjd": 60824.396373,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.577
+    },
+    {
+      "id": "98214c29f79c",
+      "target": "M101",
+      "time_iso": "2025-05-29 09:32:55.536",
+      "time_mjd": 60824.397865,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-199",
+      "central_wavelength_um": 1.6149
+    },
+    {
+      "id": "b321fc7fa601",
+      "target": "M101",
+      "time_iso": "2025-05-31 08:35:06.058",
+      "time_mjd": 60826.357709,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 1.8115
+    },
+    {
+      "id": "d59970a9ee70",
+      "target": "M101",
+      "time_iso": "2025-05-31 13:38:02.198",
+      "time_mjd": 60826.568081,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 1.5258
+    },
+    {
+      "id": "7bb5395ab59c",
+      "target": "M101",
+      "time_iso": "2025-06-03 21:33:43.315",
+      "time_mjd": 60829.898418,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 0.881
+    },
+    {
+      "id": "e5efb836e577",
+      "target": "M101",
+      "time_iso": "2025-06-03 21:35:52.224",
+      "time_mjd": 60829.89991,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 0.9019
+    },
+    {
+      "id": "9448dd623fd3",
+      "target": "M101",
+      "time_iso": "2025-06-03 21:38:02.688",
+      "time_mjd": 60829.90142,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 0.9233
+    },
+    {
+      "id": "84019d6a30da",
+      "target": "M101",
+      "time_iso": "2025-06-03 21:40:11.683",
+      "time_mjd": 60829.902913,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 0.9453
+    },
+    {
+      "id": "510e730b2464",
+      "target": "M101",
+      "time_iso": "2025-06-04 12:11:36.125",
+      "time_mjd": 60830.508057,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-200",
+      "central_wavelength_um": 1.385
+    },
+    {
+      "id": "f28cca8342b3",
+      "target": "M101",
+      "time_iso": "2025-06-06 08:05:25.267",
+      "time_mjd": 60832.337098,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-201",
+      "central_wavelength_um": 2.1749
+    },
+    {
+      "id": "91c673379480",
+      "target": "M101",
+      "time_iso": "2025-06-06 14:51:45.446",
+      "time_mjd": 60832.619276,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-201",
+      "central_wavelength_um": 0.9677
+    },
+    {
+      "id": "1f229853de4c",
+      "target": "M101",
+      "time_iso": "2025-06-08 00:57:41.270",
+      "time_mjd": 60834.040061,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-201",
+      "central_wavelength_um": 1.524
+    },
+    {
+      "id": "db957d197c91",
+      "target": "M101",
+      "time_iso": "2025-06-12 02:42:56.074",
+      "time_mjd": 60838.113149,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-201",
+      "central_wavelength_um": 1.8094
+    },
+    {
+      "id": "9ac2d7271d8a",
+      "target": "M101",
+      "time_iso": "2025-06-13 19:29:34.426",
+      "time_mjd": 60839.812204,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-202",
+      "central_wavelength_um": 1.353
+    },
+    {
+      "id": "d191d6f4b0fa",
+      "target": "M101",
+      "time_iso": "2025-06-17 13:12:50.371",
+      "time_mjd": 60843.550583,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-213",
+      "central_wavelength_um": 1.4873
+    },
+    {
+      "id": "8c403e4801aa",
+      "target": "M101",
+      "time_iso": "2025-06-21 16:39:14.083",
+      "time_mjd": 60847.693913,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-213",
+      "central_wavelength_um": 1.1472
+    },
+    {
+      "id": "7c0272a4f6d9",
+      "target": "M101",
+      "time_iso": "2025-06-22 02:22:46.474",
+      "time_mjd": 60848.099149,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-213",
+      "central_wavelength_um": 1.8953
+    },
+    {
+      "id": "2329e0486e0d",
+      "target": "M101",
+      "time_iso": "2025-06-25 11:58:47.424",
+      "time_mjd": 60851.49916,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-213",
+      "central_wavelength_um": 1.487
+    },
+    {
+      "id": "593c4efb809a",
+      "target": "M101",
+      "time_iso": "2025-06-28 00:18:29.635",
+      "time_mjd": 60854.012843,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-214",
+      "central_wavelength_um": 1.7287
+    },
+    {
+      "id": "56fa60a9eb64",
+      "target": "M101",
+      "time_iso": "2025-06-29 15:30:16.646",
+      "time_mjd": 60855.646026,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-214",
+      "central_wavelength_um": 1.598
+    },
+    {
+      "id": "7955f4b52ad2",
+      "target": "M101",
+      "time_iso": "2025-07-03 00:59:35.491",
+      "time_mjd": 60859.041383,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-214",
+      "central_wavelength_um": 1.6517
+    },
+    {
+      "id": "ecbb6f5e3760",
+      "target": "M101",
+      "time_iso": "2025-07-04 06:16:08.803",
+      "time_mjd": 60860.261213,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-215",
+      "central_wavelength_um": 1.2033
+    },
+    {
+      "id": "aeeb4f61556a",
+      "target": "M101",
+      "time_iso": "2025-07-06 13:38:38.832",
+      "time_mjd": 60862.568505,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-215",
+      "central_wavelength_um": 1.9857
+    },
+    {
+      "id": "076119c045d9",
+      "target": "M101",
+      "time_iso": "2025-07-07 23:59:51.101",
+      "time_mjd": 60863.999897,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-215",
+      "central_wavelength_um": 1.2617
+    },
+    {
+      "id": "81f88bc5e994",
+      "target": "M101",
+      "time_iso": "2025-07-10 07:21:56.592",
+      "time_mjd": 60866.306905,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-215",
+      "central_wavelength_um": 1.1957
+    },
+    {
+      "id": "440524620bc6",
+      "target": "M101",
+      "time_iso": "2025-07-12 00:10:31.757",
+      "time_mjd": 60868.007312,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-216",
+      "central_wavelength_um": 1.6908
+    },
+    {
+      "id": "493956f42b4e",
+      "target": "M101",
+      "time_iso": "2025-07-15 01:31:09.811",
+      "time_mjd": 60871.063308,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-217",
+      "central_wavelength_um": 1.1228
+    },
+    {
+      "id": "5bc8a7944c8b",
+      "target": "M101",
+      "time_iso": "2025-07-15 17:49:42.413",
+      "time_mjd": 60871.742852,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b_retry-v27-2026-217",
+      "central_wavelength_um": 2.0328
+    },
+    {
+      "id": "2eb51f773c61",
+      "target": "M101",
+      "time_iso": "2025-07-18 11:08:40.013",
+      "time_mjd": 60874.464352,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-219",
+      "central_wavelength_um": 1.294
+    },
+    {
+      "id": "d192b02481c8",
+      "target": "M101",
+      "time_iso": "2025-07-21 07:30:09.072",
+      "time_mjd": 60877.312605,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-220",
+      "central_wavelength_um": 1.6229
+    },
+    {
+      "id": "c845d94629e2",
+      "target": "M101",
+      "time_iso": "2025-07-22 14:32:47.472",
+      "time_mjd": 60878.606105,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-220",
+      "central_wavelength_um": 1.3896
+    },
+    {
+      "id": "e08cb8d45ec4",
+      "target": "M101",
+      "time_iso": "2025-07-25 02:58:29.107",
+      "time_mjd": 60881.123948,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-221",
+      "central_wavelength_um": 2.0842
+    },
+    {
+      "id": "fb3357c64ca1",
+      "target": "M101",
+      "time_iso": "2025-07-26 16:19:39.302",
+      "time_mjd": 60882.680316,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-221",
+      "central_wavelength_um": 1.4569
+    },
+    {
+      "id": "f658a6a5394b",
+      "target": "M101",
+      "time_iso": "2025-07-28 12:21:41.357",
+      "time_mjd": 60884.515062,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-222",
+      "central_wavelength_um": 2.2858
+    },
+    {
+      "id": "0116a5ec52a7",
+      "target": "M101",
+      "time_iso": "2025-07-30 23:05:32.525",
+      "time_mjd": 60886.962182,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-222",
+      "central_wavelength_um": 1.2672
+    },
+    {
+      "id": "9c7c20cfd373",
+      "target": "M101",
+      "time_iso": "2025-08-02 12:58:38.813",
+      "time_mjd": 60889.540727,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-225",
+      "central_wavelength_um": 1.6592
+    },
+    {
+      "id": "37081b3ae79a",
+      "target": "M101",
+      "time_iso": "2025-08-03 19:57:23.933",
+      "time_mjd": 60890.831527,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-225",
+      "central_wavelength_um": 1.6436
+    },
+    {
+      "id": "73115b2fdcd4",
+      "target": "M101",
+      "time_iso": "2025-08-06 08:21:30.355",
+      "time_mjd": 60893.348268,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-226",
+      "central_wavelength_um": 1.9068
+    },
+    {
+      "id": "68553c4805d4",
+      "target": "M101",
+      "time_iso": "2025-08-09 01:32:38.285",
+      "time_mjd": 60896.064332,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-226",
+      "central_wavelength_um": 1.1557
+    },
+    {
+      "id": "514f088da649",
+      "target": "M101",
+      "time_iso": "2025-08-09 19:32:26.016",
+      "time_mjd": 60896.81419,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-226",
+      "central_wavelength_um": 2.0908
+    },
+    {
+      "id": "146d861e5949",
+      "target": "M101",
+      "time_iso": "2025-08-12 04:35:25.123",
+      "time_mjd": 60899.191263,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-227",
+      "central_wavelength_um": 1.4296
+    },
+    {
+      "id": "d0b98dcb6bd5",
+      "target": "M101",
+      "time_iso": "2025-08-14 02:04:45.696",
+      "time_mjd": 60901.08664,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-227",
+      "central_wavelength_um": 1.6657
+    },
+    {
+      "id": "d43fa5575023",
+      "target": "M101",
+      "time_iso": "2025-08-16 08:05:25.613",
+      "time_mjd": 60903.337102,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-228",
+      "central_wavelength_um": 1.5375
+    },
+    {
+      "id": "ea08288d956e",
+      "target": "M101",
+      "time_iso": "2025-08-18 00:40:16.522",
+      "time_mjd": 60905.027969,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-228",
+      "central_wavelength_um": 1.8276
+    },
+    {
+      "id": "ead981c63a6d",
+      "target": "M101",
+      "time_iso": "2025-08-21 00:22:25.162",
+      "time_mjd": 60908.015569,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-228",
+      "central_wavelength_um": 1.2162
+    },
+    {
+      "id": "1106eec0e26f",
+      "target": "M101",
+      "time_iso": "2025-08-21 08:37:48.317",
+      "time_mjd": 60908.359587,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-228",
+      "central_wavelength_um": 1.9599
+    },
+    {
+      "id": "8303b28d7fe7",
+      "target": "M101",
+      "time_iso": "2025-08-24 18:13:15.744",
+      "time_mjd": 60911.75921,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-229",
+      "central_wavelength_um": 1.1893
+    },
+    {
+      "id": "40e92e1fc2eb",
+      "target": "M101",
+      "time_iso": "2025-08-27 19:23:44.419",
+      "time_mjd": 60914.808153,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-230",
+      "central_wavelength_um": 1.6701
+    },
+    {
+      "id": "c65845461b9f",
+      "target": "M101",
+      "time_iso": "2025-08-28 08:30:45.302",
+      "time_mjd": 60915.354691,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-230",
+      "central_wavelength_um": 1.1522
+    },
+    {
+      "id": "8b1843cf6b18",
+      "target": "M101",
+      "time_iso": "2025-09-01 15:13:46.589",
+      "time_mjd": 60919.634567,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-232",
+      "central_wavelength_um": 2.0562
+    },
+    {
+      "id": "87bcab1f3a87",
+      "target": "M101",
+      "time_iso": "2025-09-01 18:34:53.904",
+      "time_mjd": 60919.774235,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-232",
+      "central_wavelength_um": 1.327
+    },
+    {
+      "id": "0558d4527649",
+      "target": "M101",
+      "time_iso": "2025-09-04 15:00:42.250",
+      "time_mjd": 60922.625489,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-234",
+      "central_wavelength_um": 2.2367
+    },
+    {
+      "id": "86b55bac4e6d",
+      "target": "M101",
+      "time_iso": "2025-09-05 05:42:39.139",
+      "time_mjd": 60923.237953,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-234",
+      "central_wavelength_um": 1.3385
+    },
+    {
+      "id": "39bf9728ad65",
+      "target": "M101",
+      "time_iso": "2025-09-07 21:15:03.917",
+      "time_mjd": 60925.885462,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-234",
+      "central_wavelength_um": 1.571
+    },
+    {
+      "id": "25911a4a7d24",
+      "target": "M101",
+      "time_iso": "2025-09-10 22:38:44.534",
+      "time_mjd": 60928.943571,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-235",
+      "central_wavelength_um": 1.662
+    },
+    {
+      "id": "96b664628edf",
+      "target": "M101",
+      "time_iso": "2025-09-12 21:52:19.776",
+      "time_mjd": 60930.91134,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-236",
+      "central_wavelength_um": 1.6449
+    },
+    {
+      "id": "942ac207000e",
+      "target": "M101",
+      "time_iso": "2025-09-14 03:07:50.102",
+      "time_mjd": 60932.130441,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-236",
+      "central_wavelength_um": 2.1374
+    },
+    {
+      "id": "ac3234ac7a4f",
+      "target": "M101",
+      "time_iso": "2025-09-17 09:24:34.502",
+      "time_mjd": 60935.392066,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-237",
+      "central_wavelength_um": 1.3638
+    },
+    {
+      "id": "fe9c41f0121c",
+      "target": "M101",
+      "time_iso": "2025-09-19 16:50:04.157",
+      "time_mjd": 60937.701437,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-237",
+      "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "ecd88c2a3ddd",
+      "target": "M101",
+      "time_iso": "2025-09-21 22:37:24.442",
+      "time_mjd": 60939.942644,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-237",
+      "central_wavelength_um": 1.2427
+    },
+    {
+      "id": "7568cd4e6f9e",
+      "target": "M101",
+      "time_iso": "2025-09-25 00:02:46.406",
+      "time_mjd": 60943.001926,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-238",
+      "central_wavelength_um": 2.2965
+    },
+    {
+      "id": "516118fa2e50",
+      "target": "M101",
+      "time_iso": "2025-09-26 05:19:25.766",
+      "time_mjd": 60944.221826,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-239",
+      "central_wavelength_um": 1.5397
+    },
+    {
+      "id": "811514e9ca89",
+      "target": "M101",
+      "time_iso": "2025-09-28 12:47:02.861",
+      "time_mjd": 60946.532672,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-239",
+      "central_wavelength_um": 1.6677
+    },
+    {
+      "id": "254f48fba700",
+      "target": "M101",
+      "time_iso": "2025-10-01 10:50:20.746",
+      "time_mjd": 60949.451629,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-239",
+      "central_wavelength_um": 1.1595
+    },
+    {
+      "id": "50d9664143c9",
+      "target": "M101",
+      "time_iso": "2025-10-04 02:24:06.826",
+      "time_mjd": 60952.100079,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-241",
+      "central_wavelength_um": 1.9145
+    },
+    {
+      "id": "6608a792bcf5",
+      "target": "M101",
+      "time_iso": "2025-10-07 08:39:16.099",
+      "time_mjd": 60955.360603,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-241",
+      "central_wavelength_um": 2.2489
+    },
+    {
+      "id": "387b51340d6e",
+      "target": "M101",
+      "time_iso": "2025-10-10 14:53:49.949",
+      "time_mjd": 60958.620717,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 1.1337
+    },
+    {
+      "id": "6416eb234462",
+      "target": "M101",
+      "time_iso": "2025-10-11 20:15:22.550",
+      "time_mjd": 60959.844011,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 1.9178
+    },
+    {
+      "id": "08ffdd09290f",
+      "target": "M101",
+      "time_iso": "2025-10-14 06:57:47.837",
+      "time_mjd": 60962.290137,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.1618
+    },
+    {
+      "id": "5d137de9eb64",
+      "target": "M101",
+      "time_iso": "2025-10-15 15:33:40.982",
+      "time_mjd": 60963.648391,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 2.2523
+    },
+    {
+      "id": "478fd9db9d55",
+      "target": "M101",
+      "time_iso": "2025-10-18 18:32:39.120",
+      "time_mjd": 60966.772675,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.4374
+    },
+    {
+      "id": "fd0b96f836d1",
+      "target": "M101",
+      "time_iso": "2025-10-21 23:13:18.480",
+      "time_mjd": 60969.967575,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-244",
+      "central_wavelength_um": 1.8346
+    },
+    {
+      "id": "f14cbae72ec4",
+      "target": "M101",
+      "time_iso": "2025-10-24 04:52:00.019",
+      "time_mjd": 60972.202778,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.1635
+    },
+    {
+      "id": "7841dc694f2b",
+      "target": "M101",
+      "time_iso": "2025-10-27 09:30:16.646",
+      "time_mjd": 60975.396026,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.6734
+    },
+    {
+      "id": "a3b0b6188e5a",
+      "target": "M101",
+      "time_iso": "2025-10-28 21:23:03.869",
+      "time_mjd": 60976.891017,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.6211
+    },
+    {
+      "id": "abd9a9411de6",
+      "target": "M101",
+      "time_iso": "2025-10-31 14:29:23.222",
+      "time_mjd": 60979.603741,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-246",
+      "central_wavelength_um": 2.2555
+    },
+    {
+      "id": "8aec0fe07126",
+      "target": "M101",
+      "time_iso": "2025-11-01 18:15:29.146",
+      "time_mjd": 60980.760754,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-246",
+      "central_wavelength_um": 1.4741
+    },
+    {
+      "id": "a264c1c2217f",
+      "target": "M101",
+      "time_iso": "2025-11-04 11:24:46.570",
+      "time_mjd": 60983.475539,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-247",
+      "central_wavelength_um": 2.0125
+    },
+    {
+      "id": "f3c9d57c0f83",
+      "target": "M101",
+      "time_iso": "2025-11-05 10:20:26.822",
+      "time_mjd": 60984.430866,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-247",
+      "central_wavelength_um": 1.2203
+    },
+    {
+      "id": "cf88cffb022f",
+      "target": "M101",
+      "time_iso": "2025-11-08 21:24:00.461",
+      "time_mjd": 60987.891672,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-247",
+      "central_wavelength_um": 2.1066
+    },
+    {
+      "id": "685151159846",
+      "target": "M101",
+      "time_iso": "2025-11-09 23:28:42.010",
+      "time_mjd": 60988.978264,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-247",
+      "central_wavelength_um": 1.5469
+    },
+    {
+      "id": "e127636a1a02",
+      "target": "M101",
+      "time_iso": "2025-11-15 14:46:30.518",
+      "time_mjd": 60994.615631,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-207",
+      "central_wavelength_um": 1.7944
+    },
+    {
+      "id": "fb5930d51c48",
+      "target": "M101",
+      "time_iso": "2025-11-19 23:03:21.715",
+      "time_mjd": 60998.960668,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-208",
+      "central_wavelength_um": 1.6752
+    },
+    {
+      "id": "c72cb387465f",
+      "target": "M101",
+      "time_iso": "2025-11-21 01:09:29.232",
+      "time_mjd": 61000.048255,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-208",
+      "central_wavelength_um": 1.3733
+    },
+    {
+      "id": "ad4c66da62e6",
+      "target": "M101",
+      "time_iso": "2025-11-23 21:40:07.795",
+      "time_mjd": 61002.902868,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-208",
+      "central_wavelength_um": 2.1564
+    },
+    {
+      "id": "b93be9e9aad9",
+      "target": "M101",
+      "time_iso": "2025-11-25 15:54:37.066",
+      "time_mjd": 61004.662929,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-208",
+      "central_wavelength_um": 1.3413
+    },
+    {
+      "id": "c45a6d76c1fb",
+      "target": "M101",
+      "time_iso": "2025-11-28 22:13:56.467",
+      "time_mjd": 61007.926348,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 2.1555
+    },
+    {
+      "id": "a0406fb14e85",
+      "target": "M101",
+      "time_iso": "2025-11-30 08:22:41.290",
+      "time_mjd": 61009.349089,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.6223
+    },
+    {
+      "id": "a134799b2f89",
+      "target": "M101",
+      "time_iso": "2025-12-01 11:59:54.557",
+      "time_mjd": 61010.499937,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b_retry-v27-2026-209",
+      "central_wavelength_um": 0.7389
+    },
+    {
+      "id": "c6f39816369b",
+      "target": "M101",
+      "time_iso": "2025-12-01 12:02:03.466",
+      "time_mjd": 61010.501429,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.7555
+    },
+    {
+      "id": "4bf1b0663e3b",
+      "target": "M101",
+      "time_iso": "2025-12-01 13:33:29.174",
+      "time_mjd": 61010.564921,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.907
+    },
+    {
+      "id": "5603c428e5e2",
+      "target": "M101",
+      "time_iso": "2025-12-01 13:35:39.638",
+      "time_mjd": 61010.566431,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.929
+    },
+    {
+      "id": "68bc970d8509",
+      "target": "M101",
+      "time_iso": "2025-12-01 13:37:48.547",
+      "time_mjd": 61010.567923,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.9508
+    },
+    {
+      "id": "3cb763bc82aa",
+      "target": "M101",
+      "time_iso": "2025-12-01 13:39:57.542",
+      "time_mjd": 61010.569416,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.9738
+    },
+    {
+      "id": "31a5092f491e",
+      "target": "M101",
+      "time_iso": "2025-12-01 18:27:25.056",
+      "time_mjd": 61010.76904,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.9968
+    },
+    {
+      "id": "eed668050e84",
+      "target": "M101",
+      "time_iso": "2025-12-01 18:29:33.965",
+      "time_mjd": 61010.770532,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.0207
+    },
+    {
+      "id": "ca46d968eb86",
+      "target": "M101",
+      "time_iso": "2025-12-01 18:33:51.869",
+      "time_mjd": 61010.773517,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.0698
+    },
+    {
+      "id": "3b6272bdfe62",
+      "target": "M101",
+      "time_iso": "2025-12-01 23:21:00.979",
+      "time_mjd": 61010.972928,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.7729
+    },
+    {
+      "id": "b83692c2769d",
+      "target": "M101",
+      "time_iso": "2025-12-01 23:23:09.974",
+      "time_mjd": 61010.974421,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.7914
+    },
+    {
+      "id": "9e762f533f88",
+      "target": "M101",
+      "time_iso": "2025-12-01 23:25:18.883",
+      "time_mjd": 61010.975913,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.8101
+    },
+    {
+      "id": "d2b69d6b5148",
+      "target": "M101",
+      "time_iso": "2025-12-01 23:27:27.792",
+      "time_mjd": 61010.977405,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.8294
+    },
+    {
+      "id": "b453674e9a84",
+      "target": "M101",
+      "time_iso": "2025-12-02 02:36:19.930",
+      "time_mjd": 61011.108564,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.0953
+    },
+    {
+      "id": "4d2379c786d2",
+      "target": "M101",
+      "time_iso": "2025-12-02 10:47:42.115",
+      "time_mjd": 61011.449793,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.8657
+    },
+    {
+      "id": "a972dbd98660",
+      "target": "M101",
+      "time_iso": "2025-12-02 10:49:51.024",
+      "time_mjd": 61011.451285,
+      "detector": "SPHEREx-D1",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 0.8864
+    },
+    {
+      "id": "59fb2e8e50d9",
+      "target": "M101",
+      "time_iso": "2025-12-03 16:11:43.498",
+      "time_mjd": 61012.674809,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 2.2569
+    },
+    {
+      "id": "86b97d778e30",
+      "target": "M101",
+      "time_iso": "2025-12-06 12:32:03.437",
+      "time_mjd": 61015.522262,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.181
+    },
+    {
+      "id": "fc2766c03738",
+      "target": "M101",
+      "time_iso": "2025-12-06 12:34:12.432",
+      "time_mjd": 61015.523755,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.2094
+    },
+    {
+      "id": "28a22566a4e6",
+      "target": "M101",
+      "time_iso": "2025-12-06 12:36:21.341",
+      "time_mjd": 61015.525247,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.238
+    },
+    {
+      "id": "c855f6a234d0",
+      "target": "M101",
+      "time_iso": "2025-12-06 12:38:30.250",
+      "time_mjd": 61015.526739,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.2678
+    },
+    {
+      "id": "18ae28e8bb07",
+      "target": "M101",
+      "time_iso": "2025-12-07 11:21:33.811",
+      "time_mjd": 61016.473308,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.4665
+    },
+    {
+      "id": "30791166bba3",
+      "target": "M101",
+      "time_iso": "2025-12-07 11:23:42.720",
+      "time_mjd": 61016.4748,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.5021
+    },
+    {
+      "id": "18ff6236326d",
+      "target": "M101",
+      "time_iso": "2025-12-07 11:25:51.715",
+      "time_mjd": 61016.476293,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.5388
+    },
+    {
+      "id": "e089d26799b2",
+      "target": "M101",
+      "time_iso": "2025-12-07 11:28:00.624",
+      "time_mjd": 61016.477785,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.576
+    },
+    {
+      "id": "b712c4950748",
+      "target": "M101",
+      "time_iso": "2025-12-07 17:49:36.624",
+      "time_mjd": 61016.742785,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.6138
+    },
+    {
+      "id": "ba1c092cf8aa",
+      "target": "M101",
+      "time_iso": "2025-12-07 22:47:38.054",
+      "time_mjd": 61016.949746,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.1012
+    },
+    {
+      "id": "a2ee1aa6a4d9",
+      "target": "M101",
+      "time_iso": "2025-12-07 22:49:46.963",
+      "time_mjd": 61016.951238,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.127
+    },
+    {
+      "id": "ff944a123c2f",
+      "target": "M101",
+      "time_iso": "2025-12-08 00:22:10.992",
+      "time_mjd": 61017.015405,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.2729
+    },
+    {
+      "id": "f5b567cb5169",
+      "target": "M101",
+      "time_iso": "2025-12-08 00:24:19.901",
+      "time_mjd": 61017.016897,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.3033
+    },
+    {
+      "id": "f30dca069792",
+      "target": "M101",
+      "time_iso": "2025-12-08 00:26:28.896",
+      "time_mjd": 61017.01839,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.3343
+    },
+    {
+      "id": "1cb16c651705",
+      "target": "M101",
+      "time_iso": "2025-12-08 00:28:37.805",
+      "time_mjd": 61017.019882,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.3661
+    },
+    {
+      "id": "ac73ee6ae285",
+      "target": "M101",
+      "time_iso": "2025-12-08 00:38:14.957",
+      "time_mjd": 61017.026562,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 2.3083
+    },
+    {
+      "id": "d2291932540d",
+      "target": "M101",
+      "time_iso": "2025-12-08 23:12:10.570",
+      "time_mjd": 61017.966789,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.1536
     },
     {
       "id": "17d316f08781",
@@ -27,8 +1707,938 @@
       "time_mjd": 61018.30569,
       "detector": "SPHEREx-D2",
       "release": "DR1",
-      "version": "7.0.5",
-      "central_wavelength_um": 1.1536
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "5347e9886322",
+      "target": "M101",
+      "time_iso": "2025-12-10 06:10:03.504",
+      "time_mjd": 61019.256985,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.3983
+    },
+    {
+      "id": "4df534895ecb",
+      "target": "M101",
+      "time_iso": "2025-12-10 06:12:12.413",
+      "time_mjd": 61019.258477,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.432
+    },
+    {
+      "id": "7206ac11de9d",
+      "target": "M101",
+      "time_iso": "2025-12-11 05:01:27.408",
+      "time_mjd": 61020.209345,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.1068
+    },
+    {
+      "id": "0fb198ac3999",
+      "target": "M101",
+      "time_iso": "2025-12-11 05:03:36.403",
+      "time_mjd": 61020.210838,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.1326
+    },
+    {
+      "id": "226e5cc77886",
+      "target": "M101",
+      "time_iso": "2025-12-11 06:47:08.045",
+      "time_mjd": 61020.282732,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-209",
+      "central_wavelength_um": 1.1098
+    },
+    {
+      "id": "cf804ea8e745",
+      "target": "M101",
+      "time_iso": "2025-12-11 17:55:08.659",
+      "time_mjd": 61020.746628,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.1593
+    },
+    {
+      "id": "d608d24c0770",
+      "target": "M101",
+      "time_iso": "2025-12-11 17:57:17.654",
+      "time_mjd": 61020.748121,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.1868
+    },
+    {
+      "id": "9c2230b78af6",
+      "target": "M101",
+      "time_iso": "2025-12-11 17:59:26.563",
+      "time_mjd": 61020.749613,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.2153
+    },
+    {
+      "id": "4a61701a7b23",
+      "target": "M101",
+      "time_iso": "2025-12-11 18:01:35.472",
+      "time_mjd": 61020.751105,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.244
+    },
+    {
+      "id": "f83e725502c0",
+      "target": "M101",
+      "time_iso": "2025-12-11 22:49:53.702",
+      "time_mjd": 61020.951316,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.2737
+    },
+    {
+      "id": "53564bf64643",
+      "target": "M101",
+      "time_iso": "2025-12-12 20:10:13.411",
+      "time_mjd": 61021.840433,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.8772
+    },
+    {
+      "id": "04abcbd244c5",
+      "target": "M101",
+      "time_iso": "2025-12-16 12:09:22.723",
+      "time_mjd": 61025.506513,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 1.3078
+    },
+    {
+      "id": "c3d7c4155bfb",
+      "target": "M101",
+      "time_iso": "2025-12-17 07:44:21.754",
+      "time_mjd": 61026.322474,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-210",
+      "central_wavelength_um": 2.3588
+    },
+    {
+      "id": "929e6332d8fa",
+      "target": "M101",
+      "time_iso": "2025-12-20 15:33:56.275",
+      "time_mjd": 61029.648568,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-211",
+      "central_wavelength_um": 1.471
+    },
+    {
+      "id": "d27b51566dfe",
+      "target": "M101",
+      "time_iso": "2025-12-23 08:48:46.685",
+      "time_mjd": 61032.367207,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-211",
+      "central_wavelength_um": 1.875
+    },
+    {
+      "id": "79c59d4b61ae",
+      "target": "M101",
+      "time_iso": "2025-12-27 04:06:28.224",
+      "time_mjd": 61036.17116,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-211",
+      "central_wavelength_um": 1.1434
+    },
+    {
+      "id": "20f936de3258",
+      "target": "M101",
+      "time_iso": "2025-12-27 21:56:00.442",
+      "time_mjd": 61036.913894,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-211",
+      "central_wavelength_um": 1.7484
+    },
+    {
+      "id": "31f7bf7bd9cb",
+      "target": "M101",
+      "time_iso": "2025-12-31 17:16:09.293",
+      "time_mjd": 61040.719552,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-211",
+      "central_wavelength_um": 1.1329
+    },
+    {
+      "id": "59b757064656",
+      "target": "M101",
+      "time_iso": "2026-01-01 09:33:35.971",
+      "time_mjd": 61041.398333,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-211",
+      "central_wavelength_um": 1.7481
+    },
+    {
+      "id": "48436690bfbd",
+      "target": "M101",
+      "time_iso": "2026-01-05 11:15:10.022",
+      "time_mjd": 61045.468866,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-212",
+      "central_wavelength_um": 1.747
+    },
+    {
+      "id": "9f57167bfbe0",
+      "target": "M101",
+      "time_iso": "2026-01-10 05:24:09.418",
+      "time_mjd": 61050.225109,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-213",
+      "central_wavelength_um": 1.9136
+    },
+    {
+      "id": "5c80a99c04e9",
+      "target": "M101",
+      "time_iso": "2026-01-11 12:22:51.427",
+      "time_mjd": 61051.515873,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-213",
+      "central_wavelength_um": 1.185
+    },
+    {
+      "id": "5451715c3ecd",
+      "target": "M101",
+      "time_iso": "2026-01-14 05:35:46.838",
+      "time_mjd": 61054.233181,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-214",
+      "central_wavelength_um": 2.1945
+    },
+    {
+      "id": "0510619fed00",
+      "target": "M101",
+      "time_iso": "2026-01-15 22:15:38.506",
+      "time_mjd": 61055.927529,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-216",
+      "central_wavelength_um": 1.573
+    },
+    {
+      "id": "bb9ea7b58c02",
+      "target": "M101",
+      "time_iso": "2026-01-20 08:09:59.242",
+      "time_mjd": 61060.340269,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-216",
+      "central_wavelength_um": 1.74
+    },
+    {
+      "id": "bea6c5a299ef",
+      "target": "M101",
+      "time_iso": "2026-01-21 15:09:30.413",
+      "time_mjd": 61061.631602,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-216",
+      "central_wavelength_um": 1.128
+    },
+    {
+      "id": "d329a3b5d696",
+      "target": "M101",
+      "time_iso": "2026-01-24 05:05:04.099",
+      "time_mjd": 61064.211853,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-218",
+      "central_wavelength_um": 1.8212
+    },
+    {
+      "id": "d54e34e16502",
+      "target": "M101",
+      "time_iso": "2026-01-30 15:53:38.314",
+      "time_mjd": 61070.662249,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-220",
+      "central_wavelength_um": 1.5685
+    },
+    {
+      "id": "9bfdd55fc957",
+      "target": "M101",
+      "time_iso": "2026-02-01 21:35:31.574",
+      "time_mjd": 61072.899671,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-220",
+      "central_wavelength_um": 1.7746
+    },
+    {
+      "id": "1370ed918175",
+      "target": "M101",
+      "time_iso": "2026-02-03 12:46:55.690",
+      "time_mjd": 61074.532589,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-221",
+      "central_wavelength_um": 1.1621
+    },
+    {
+      "id": "1234f0cb9357",
+      "target": "M101",
+      "time_iso": "2026-02-05 21:44:29.414",
+      "time_mjd": 61076.905896,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-222",
+      "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "9c85b0084ae1",
+      "target": "M101",
+      "time_iso": "2026-02-09 21:55:06.960",
+      "time_mjd": 61080.913275,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-225",
+      "central_wavelength_um": 1.8135
+    },
+    {
+      "id": "7b3753f0e857",
+      "target": "M101",
+      "time_iso": "2026-02-13 17:07:49.210",
+      "time_mjd": 61084.713764,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-226",
+      "central_wavelength_um": 1.1211
+    },
+    {
+      "id": "2e06d51a7b4b",
+      "target": "M101",
+      "time_iso": "2026-02-14 11:03:11.434",
+      "time_mjd": 61085.460549,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-226",
+      "central_wavelength_um": 1.8967
+    },
+    {
+      "id": "654a99ccfdf2",
+      "target": "M101",
+      "time_iso": "2026-02-17 10:44:01.795",
+      "time_mjd": 61088.447243,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-227",
+      "central_wavelength_um": 1.2306
+    },
+    {
+      "id": "607a02830359",
+      "target": "M101",
+      "time_iso": "2026-02-18 04:39:43.978",
+      "time_mjd": 61089.194259,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-227",
+      "central_wavelength_um": 1.9829
+    },
+    {
+      "id": "2350d3a41f5f",
+      "target": "M101",
+      "time_iso": "2026-02-22 08:02:11.645",
+      "time_mjd": 61093.334857,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-227",
+      "central_wavelength_um": 1.3827
+    },
+    {
+      "id": "ef972199ffa5",
+      "target": "M101",
+      "time_iso": "2026-02-23 02:05:48.077",
+      "time_mjd": 61094.087362,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-228",
+      "central_wavelength_um": 2.2209
+    },
+    {
+      "id": "685c464f484c",
+      "target": "M101",
+      "time_iso": "2026-02-27 03:45:08.640",
+      "time_mjd": 61098.15635,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-229",
+      "central_wavelength_um": 2.3223
+    },
+    {
+      "id": "5958102bb7c1",
+      "target": "M101",
+      "time_iso": "2026-03-03 23:30:51.437",
+      "time_mjd": 61102.979762,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-229",
+      "central_wavelength_um": 1.5535
+    },
+    {
+      "id": "a149eabf0813",
+      "target": "M101",
+      "time_iso": "2026-03-04 18:56:33.274",
+      "time_mjd": 61103.789274,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-229",
+      "central_wavelength_um": 1.683
+    },
+    {
+      "id": "43cb0cc3c73d",
+      "target": "M101",
+      "time_iso": "2026-03-07 13:53:35.578",
+      "time_mjd": 61106.578884,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-231",
+      "central_wavelength_um": 1.6215
+    },
+    {
+      "id": "d62fcce5eaa0",
+      "target": "M101",
+      "time_iso": "2026-03-09 11:23:49.891",
+      "time_mjd": 61108.474883,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-232",
+      "central_wavelength_um": 1.8422
+    },
+    {
+      "id": "e6461b3de0fe",
+      "target": "M101",
+      "time_iso": "2026-03-12 12:46:41.434",
+      "time_mjd": 61111.532424,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-234",
+      "central_wavelength_um": 1.1944
+    },
+    {
+      "id": "18a374207366",
+      "target": "M101",
+      "time_iso": "2026-03-13 06:39:54.662",
+      "time_mjd": 61112.277716,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-234",
+      "central_wavelength_um": 1.8403
+    },
+    {
+      "id": "559cfd25eb1b",
+      "target": "M101",
+      "time_iso": "2026-03-16 16:10:30.403",
+      "time_mjd": 61115.673963,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-235",
+      "central_wavelength_um": 1.2219
+    },
+    {
+      "id": "9739f30fe881",
+      "target": "M101",
+      "time_iso": "2026-03-17 10:01:19.344",
+      "time_mjd": 61116.417585,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-235",
+      "central_wavelength_um": 1.881
+    },
+    {
+      "id": "a56366699237",
+      "target": "M101",
+      "time_iso": "2026-03-20 14:39:54.374",
+      "time_mjd": 61119.611046,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-235",
+      "central_wavelength_um": 1.6215
+    },
+    {
+      "id": "9021a3c3a783",
+      "target": "M101",
+      "time_iso": "2026-03-21 00:29:28.954",
+      "time_mjd": 61120.020474,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-235",
+      "central_wavelength_um": 1.9232
+    },
+    {
+      "id": "8075e5161a2c",
+      "target": "M101",
+      "time_iso": "2026-03-25 05:27:17.165",
+      "time_mjd": 61124.227282,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-236",
+      "central_wavelength_um": 1.7921
+    },
+    {
+      "id": "2af825e14142",
+      "target": "M101",
+      "time_iso": "2026-03-26 14:04:25.478",
+      "time_mjd": 61125.586406,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-237",
+      "central_wavelength_um": 1.2466
+    },
+    {
+      "id": "3af957b61906",
+      "target": "M101",
+      "time_iso": "2026-03-29 00:46:10.762",
+      "time_mjd": 61128.032069,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-237",
+      "central_wavelength_um": 2.0546
+    },
+    {
+      "id": "b8833ad328a4",
+      "target": "M101",
+      "time_iso": "2026-03-30 23:56:50.957",
+      "time_mjd": 61129.997812,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-238",
+      "central_wavelength_um": 1.5044
+    },
+    {
+      "id": "c0a54fc2e14c",
+      "target": "M101",
+      "time_iso": "2026-04-02 15:34:25.738",
+      "time_mjd": 61132.648909,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-238",
+      "central_wavelength_um": 2.1986
+    },
+    {
+      "id": "49b6e97b0367",
+      "target": "M101",
+      "time_iso": "2026-04-06 01:01:25.046",
+      "time_mjd": 61136.042651,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-239",
+      "central_wavelength_um": 1.159
+    },
+    {
+      "id": "d55b5ae28c77",
+      "target": "M101",
+      "time_iso": "2026-04-06 23:42:59.530",
+      "time_mjd": 61136.988189,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-239",
+      "central_wavelength_um": 2.2467
+    },
+    {
+      "id": "053ba112b2b6",
+      "target": "M101",
+      "time_iso": "2026-04-10 07:36:25.776",
+      "time_mjd": 61140.316965,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-240",
+      "central_wavelength_um": 1.4307
+    },
+    {
+      "id": "f16251340c05",
+      "target": "M101",
+      "time_iso": "2026-04-12 21:26:00.211",
+      "time_mjd": 61142.893058,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-240",
+      "central_wavelength_um": 1.7817
+    },
+    {
+      "id": "abc98bc8d43d",
+      "target": "M101",
+      "time_iso": "2026-04-16 00:28:14.736",
+      "time_mjd": 61146.019615,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-241",
+      "central_wavelength_um": 1.2398
+    },
+    {
+      "id": "dbce9c10bc14",
+      "target": "M101",
+      "time_iso": "2026-04-16 15:05:46.032",
+      "time_mjd": 61146.629005,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 1.7808
+    },
+    {
+      "id": "3988d6c48b58",
+      "target": "M101",
+      "time_iso": "2026-04-19 16:20:37.190",
+      "time_mjd": 61149.680986,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 1.6617
+    },
+    {
+      "id": "2053cdff5074",
+      "target": "M101",
+      "time_iso": "2026-04-20 12:03:59.674",
+      "time_mjd": 61150.502774,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 1.5314
+    },
+    {
+      "id": "bee3735bd279",
+      "target": "M101",
+      "time_iso": "2026-04-20 18:30:25.718",
+      "time_mjd": 61150.771131,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 2.2879
+    },
+    {
+      "id": "78eb1ccdabf4",
+      "target": "M101",
+      "time_iso": "2026-04-23 00:12:45.072",
+      "time_mjd": 61153.008855,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-242",
+      "central_wavelength_um": 2.3881
+    },
+    {
+      "id": "18ad2ecfaa6b",
+      "target": "M101",
+      "time_iso": "2026-04-26 19:29:15.936",
+      "time_mjd": 61156.81199,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.8974
+    },
+    {
+      "id": "91d7c6973198",
+      "target": "M101",
+      "time_iso": "2026-04-29 15:54:56.678",
+      "time_mjd": 61159.663156,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-244",
+      "central_wavelength_um": 1.1284
+    },
+    {
+      "id": "0076cf35d23d",
+      "target": "M101",
+      "time_iso": "2026-04-29 17:29:41.885",
+      "time_mjd": 61159.728957,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-244",
+      "central_wavelength_um": 2.1757
+    },
+    {
+      "id": "4ff7f30eea2a",
+      "target": "M101",
+      "time_iso": "2026-05-02 10:46:30.490",
+      "time_mjd": 61162.448964,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-244",
+      "central_wavelength_um": 2.3283
+    },
+    {
+      "id": "b35380657feb",
+      "target": "M101",
+      "time_iso": "2026-05-05 03:55:26.400",
+      "time_mjd": 61165.1635,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.1535
+    },
+    {
+      "id": "d03b40d99821",
+      "target": "M101",
+      "time_iso": "2026-05-06 05:57:17.654",
+      "time_mjd": 61166.248121,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 2.3819
+    },
+    {
+      "id": "f0dac80ab3bd",
+      "target": "M101",
+      "time_iso": "2026-05-08 11:52:15.254",
+      "time_mjd": 61168.494621,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.9918
+    },
+    {
+      "id": "49b90da8bede",
+      "target": "M101",
+      "time_iso": "2026-05-08 18:10:37.891",
+      "time_mjd": 61168.757383,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.1788
+    },
+    {
+      "id": "5f15e90063e8",
+      "target": "M101",
+      "time_iso": "2026-05-10 14:09:51.034",
+      "time_mjd": 61170.590174,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-245",
+      "central_wavelength_um": 1.8561
+    },
+    {
+      "id": "98048f4467b7",
+      "target": "M101",
+      "time_iso": "2026-05-11 16:25:38.726",
+      "time_mjd": 61171.684476,
+      "detector": "SPHEREx-D2",
+      "release": "DR1",
+      "version": "l2b-v27-2026-246",
+      "central_wavelength_um": 1.1216
+    },
+    {
+      "id": "70d632f3c521",
+      "target": "M101",
+      "time_iso": "2026-05-12 00:27:14.602",
+      "time_mjd": 61172.018919,
+      "detector": "SPHEREx-D3",
+      "release": "DR1",
+      "version": "l2b-v27-2026-246",
+      "central_wavelength_um": 2.1808
+    },
+    {
+      "id": "f4b11a34aa74",
+      "target": "M101",
+      "time_iso": "2026-05-14 17:37:14.966",
+      "time_mjd": 61174.734201,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-267",
+      "central_wavelength_um": 1.3263
+    },
+    {
+      "id": "8fca78131abe",
+      "target": "M101",
+      "time_iso": "2026-05-15 00:12:19.843",
+      "time_mjd": 61175.008563,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-267",
+      "central_wavelength_um": 2.2255
+    },
+    {
+      "id": "31e4f49051c4",
+      "target": "M101",
+      "time_iso": "2026-05-17 10:53:45.254",
+      "time_mjd": 61177.453996,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-267",
+      "central_wavelength_um": 1.4205
+    },
+    {
+      "id": "facff7ff73ce",
+      "target": "M101",
+      "time_iso": "2026-05-17 10:55:54.163",
+      "time_mjd": 61177.455488,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-267",
+      "central_wavelength_um": 1.4548
+    },
+    {
+      "id": "d3dd8c71ed2c",
+      "target": "M101",
+      "time_iso": "2026-05-17 10:58:03.158",
+      "time_mjd": 61177.456981,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-267",
+      "central_wavelength_um": 1.49
+    },
+    {
+      "id": "0ae049849fb5",
+      "target": "M101",
+      "time_iso": "2026-05-17 11:00:12.067",
+      "time_mjd": 61177.458473,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-267",
+      "central_wavelength_um": 1.5259
+    },
+    {
+      "id": "f49a90380f39",
+      "target": "M101",
+      "time_iso": "2026-05-21 06:10:13.181",
+      "time_mjd": 61181.257097,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.6392
+    },
+    {
+      "id": "e8d7c48a77e2",
+      "target": "M101",
+      "time_iso": "2026-05-22 00:05:16.915",
+      "time_mjd": 61182.003668,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.4154
+    },
+    {
+      "id": "b9243b9ee565",
+      "target": "M101",
+      "time_iso": "2026-05-22 00:07:25.910",
+      "time_mjd": 61182.005161,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.4492
+    },
+    {
+      "id": "6f50aada4f3e",
+      "target": "M101",
+      "time_iso": "2026-05-22 00:09:34.819",
+      "time_mjd": 61182.006653,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.4841
+    },
+    {
+      "id": "635c8770aeba",
+      "target": "M101",
+      "time_iso": "2026-05-22 00:11:43.728",
+      "time_mjd": 61182.008145,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.52
+    },
+    {
+      "id": "cb28284bf970",
+      "target": "M101",
+      "time_iso": "2026-05-22 14:44:14.266",
+      "time_mjd": 61182.614054,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.7412
+    },
+    {
+      "id": "39abb9d27430",
+      "target": "M101",
+      "time_iso": "2026-05-22 14:46:23.174",
+      "time_mjd": 61182.615546,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.7575
+    },
+    {
+      "id": "677e4421ab36",
+      "target": "M101",
+      "time_iso": "2026-05-22 14:48:33.638",
+      "time_mjd": 61182.617056,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.7746
+    },
+    {
+      "id": "f00b4b947a44",
+      "target": "M101",
+      "time_iso": "2026-05-22 19:38:10.147",
+      "time_mjd": 61182.818173,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.557
+    },
+    {
+      "id": "bfa862de3b86",
+      "target": "M101",
+      "time_iso": "2026-05-22 19:40:19.056",
+      "time_mjd": 61182.819665,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.5945
+    },
+    {
+      "id": "fe9d6a2df91b",
+      "target": "M101",
+      "time_iso": "2026-05-22 19:42:28.051",
+      "time_mjd": 61182.821158,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.6325
+    },
+    {
+      "id": "1fe1ff3ff03b",
+      "target": "M101",
+      "time_iso": "2026-05-22 21:06:36.317",
+      "time_mjd": 61182.879587,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 2.3858
     },
     {
       "id": "5ef4de9a9c5f",
@@ -37,113 +2647,3059 @@
       "time_mjd": 61183.156862,
       "detector": "SPHEREx-D2",
       "release": "QR3",
-      "version": "7.0.5",
-      "central_wavelength_um": 1.5631
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.5069
     },
     {
-      "id": "20473c482b2c",
-      "target": "NGC 6543",
-      "time_iso": "2025-04-26 12:13:16.867",
-      "time_mjd": 60791.509223,
-      "detector": "SPHEREx-D3",
-      "release": "DR1",
-      "version": "7.0.5",
-      "central_wavelength_um": 1.6273
+      "id": "fa951efa5da4",
+      "target": "M101",
+      "time_iso": "2026-05-23 03:48:01.786",
+      "time_mjd": 61183.158354,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.6002
     },
     {
-      "id": "fe9c41f0121c",
-      "target": "NGC 6543",
-      "time_iso": "2025-09-19 16:50:04.157",
-      "time_mjd": 60937.701437,
-      "detector": "SPHEREx-D3",
-      "release": "DR1",
-      "version": "7.0.5",
-      "central_wavelength_um": 2.0433
+      "id": "225da1ba919f",
+      "target": "M101",
+      "time_iso": "2026-05-23 03:50:10.694",
+      "time_mjd": 61183.159846,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.6388
     },
     {
-      "id": "1234f0cb9357",
-      "target": "NGC 6543",
-      "time_iso": "2026-02-05 21:44:29.414",
-      "time_mjd": 61076.905896,
+      "id": "35db60033240",
+      "target": "M101",
+      "time_iso": "2026-05-23 16:52:04.685",
+      "time_mjd": 61183.702832,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.0993
+    },
+    {
+      "id": "3e1119ab11a6",
+      "target": "M101",
+      "time_iso": "2026-05-23 16:54:13.594",
+      "time_mjd": 61183.704324,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.1247
+    },
+    {
+      "id": "e73d829456af",
+      "target": "M101",
+      "time_iso": "2026-05-23 20:03:07.200",
+      "time_mjd": 61183.8355,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.7934
+    },
+    {
+      "id": "d687a80837a6",
+      "target": "M101",
+      "time_iso": "2026-05-23 20:05:16.109",
+      "time_mjd": 61183.836992,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.8121
+    },
+    {
+      "id": "f062a308d6fa",
+      "target": "M101",
+      "time_iso": "2026-05-23 20:07:25.104",
+      "time_mjd": 61183.838485,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.8314
+    },
+    {
+      "id": "ff8e590128a0",
+      "target": "M101",
+      "time_iso": "2026-05-23 21:40:27.494",
+      "time_mjd": 61183.903096,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 0.9829
+    },
+    {
+      "id": "1eaa83317aa3",
+      "target": "M101",
+      "time_iso": "2026-05-23 21:44:45.312",
+      "time_mjd": 61183.90608,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.0303
+    },
+    {
+      "id": "ba98b921991e",
+      "target": "M101",
+      "time_iso": "2026-05-23 21:46:54.307",
+      "time_mjd": 61183.907573,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.0547
+    },
+    {
+      "id": "75fbbb9275e2",
+      "target": "M101",
+      "time_iso": "2026-05-24 00:56:15.562",
+      "time_mjd": 61184.039069,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.0802
+    },
+    {
+      "id": "22586bc74aa9",
+      "target": "M101",
+      "time_iso": "2026-05-24 00:58:24.470",
+      "time_mjd": 61184.040561,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.1058
+    },
+    {
+      "id": "7c6df5ca3586",
+      "target": "M101",
+      "time_iso": "2026-05-27 15:19:25.882",
+      "time_mjd": 61187.638494,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-269",
+      "central_wavelength_um": 1.0953
+    },
+    {
+      "id": "d51e17a25b2e",
+      "target": "M101",
+      "time_iso": "2026-05-28 09:06:04.694",
+      "time_mjd": 61188.379221,
       "detector": "SPHEREx-D3",
-      "release": "DR1",
-      "version": "7.0.5",
-      "central_wavelength_um": 1.8573
+      "release": "QR3",
+      "version": "l2b-v27-2026-269",
+      "central_wavelength_um": 1.7696
+    },
+    {
+      "id": "ae9b7531dc72",
+      "target": "M101",
+      "time_iso": "2026-05-30 00:09:06.826",
+      "time_mjd": 61190.006329,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.6132
+    },
+    {
+      "id": "2abd352f04d2",
+      "target": "M101",
+      "time_iso": "2026-05-30 23:08:02.083",
+      "time_mjd": 61190.963913,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 0.8712
+    },
+    {
+      "id": "6640fe6d6457",
+      "target": "M101",
+      "time_iso": "2026-05-30 23:10:12.547",
+      "time_mjd": 61190.965423,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 0.8919
+    },
+    {
+      "id": "4b827a977b10",
+      "target": "M101",
+      "time_iso": "2026-05-30 23:12:21.456",
+      "time_mjd": 61190.966915,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 0.913
+    },
+    {
+      "id": "fa5d5fe16ac4",
+      "target": "M101",
+      "time_iso": "2026-05-30 23:14:30.451",
+      "time_mjd": 61190.968408,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 0.9348
+    },
+    {
+      "id": "85c1ca6fe038",
+      "target": "M101",
+      "time_iso": "2026-05-31 08:55:24.730",
+      "time_mjd": 61191.371814,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.1519
+    },
+    {
+      "id": "cb02f4e9b44e",
+      "target": "M101",
+      "time_iso": "2026-05-31 08:57:35.194",
+      "time_mjd": 61191.373324,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.1792
+    },
+    {
+      "id": "d4e8329d0433",
+      "target": "M101",
+      "time_iso": "2026-05-31 08:59:44.102",
+      "time_mjd": 61191.374816,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.2077
+    },
+    {
+      "id": "d2f60779c017",
+      "target": "M101",
+      "time_iso": "2026-05-31 09:01:53.011",
+      "time_mjd": 61191.376308,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.2364
     },
     {
       "id": "c112261fef65",
-      "target": "NGC 6543",
+      "target": "M101",
       "time_iso": "2026-06-01 04:21:51.149",
       "time_mjd": 61192.181842,
       "detector": "SPHEREx-D3",
       "release": "QR3",
-      "version": "7.0.5",
-      "central_wavelength_um": 1.8102
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.5069
+    },
+    {
+      "id": "19984a0d4251",
+      "target": "M101",
+      "time_iso": "2026-06-05 02:55:52.982",
+      "time_mjd": 61196.122141,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 2.3821
+    },
+    {
+      "id": "1230bbff2f54",
+      "target": "M101",
+      "time_iso": "2026-06-06 08:19:42.182",
+      "time_mjd": 61197.347016,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.266
+    },
+    {
+      "id": "1cb3243e24c0",
+      "target": "M101",
+      "time_iso": "2026-06-06 08:21:51.091",
+      "time_mjd": 61197.348508,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.2964
+    },
+    {
+      "id": "cf6e97da5cb1",
+      "target": "M101",
+      "time_iso": "2026-06-06 08:24:00.086",
+      "time_mjd": 61197.350001,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b_retry-v27-2026-271",
+      "central_wavelength_um": 1.3271
+    },
+    {
+      "id": "5117a5e29e1c",
+      "target": "M101",
+      "time_iso": "2026-06-06 08:26:08.995",
+      "time_mjd": 61197.351493,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-270",
+      "central_wavelength_um": 1.3586
+    },
+    {
+      "id": "5b0594b01fe3",
+      "target": "M101",
+      "time_iso": "2026-06-08 17:18:57.254",
+      "time_mjd": 61199.721496,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-271",
+      "central_wavelength_um": 1.5233
+    },
+    {
+      "id": "dfe21dbf608d",
+      "target": "M101",
+      "time_iso": "2026-06-10 14:50:51.274",
+      "time_mjd": 61201.618649,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-271",
+      "central_wavelength_um": 2.3936
+    },
+    {
+      "id": "45260f8a7271",
+      "target": "M101",
+      "time_iso": "2026-06-12 22:16:14.880",
+      "time_mjd": 61203.92795,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-272",
+      "central_wavelength_um": 1.4177
+    },
+    {
+      "id": "2f9c10ef205d",
+      "target": "M101",
+      "time_iso": "2026-06-13 14:39:54.461",
+      "time_mjd": 61204.611047,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-272",
+      "central_wavelength_um": 1.3906
+    },
+    {
+      "id": "dc5a3da1dbc1",
+      "target": "M101",
+      "time_iso": "2026-06-15 15:20:17.635",
+      "time_mjd": 61206.639093,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-272",
+      "central_wavelength_um": 1.8088
+    },
+    {
+      "id": "cf071ee0527b",
+      "target": "M101",
+      "time_iso": "2026-06-18 00:38:42.259",
+      "time_mjd": 61209.026878,
+      "detector": "SPHEREx-D1",
+      "release": "QR3",
+      "version": "l2b-v27-2026-272",
+      "central_wavelength_um": 0.9569
+    },
+    {
+      "id": "394c438be399",
+      "target": "M101",
+      "time_iso": "2026-06-19 07:38:39.610",
+      "time_mjd": 61210.318514,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.4154
+    },
+    {
+      "id": "b2b37745eb0f",
+      "target": "M101",
+      "time_iso": "2026-06-19 12:31:18.768",
+      "time_mjd": 61210.521745,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.4494
+    },
+    {
+      "id": "457bb734bea0",
+      "target": "M101",
+      "time_iso": "2026-06-19 19:01:07.421",
+      "time_mjd": 61210.792447,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.4844
+    },
+    {
+      "id": "d27973e4a3e5",
+      "target": "M101",
+      "time_iso": "2026-06-19 20:24:54.173",
+      "time_mjd": 61210.850627,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.8508
+    },
+    {
+      "id": "52e2e51cd923",
+      "target": "M101",
+      "time_iso": "2026-06-19 22:16:50.822",
+      "time_mjd": 61210.928366,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.52
+    },
+    {
+      "id": "cf63e61a6c84",
+      "target": "M101",
+      "time_iso": "2026-06-21 06:39:45.850",
+      "time_mjd": 61212.277614,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.5237
+    },
+    {
+      "id": "c2c921006d72",
+      "target": "M101",
+      "time_iso": "2026-06-22 20:21:33.206",
+      "time_mjd": 61213.848301,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.4209
+    },
+    {
+      "id": "b07a48ace845",
+      "target": "M101",
+      "time_iso": "2026-06-23 14:16:33.917",
+      "time_mjd": 61214.594837,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.4552
+    },
+    {
+      "id": "6e9199a68bf5",
+      "target": "M101",
+      "time_iso": "2026-06-24 03:19:00.048",
+      "time_mjd": 61215.138195,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b_retry-v27-2026-274",
+      "central_wavelength_um": 1.4904
+    },
+    {
+      "id": "8fd43943a4bd",
+      "target": "M101",
+      "time_iso": "2026-06-24 06:17:47.386",
+      "time_mjd": 61215.262354,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.8516
+    },
+    {
+      "id": "8724d74a24e2",
+      "target": "M101",
+      "time_iso": "2026-06-25 10:06:57.514",
+      "time_mjd": 61216.421499,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-273",
+      "central_wavelength_um": 1.6363
+    },
+    {
+      "id": "8f07544e487a",
+      "target": "M101",
+      "time_iso": "2026-06-27 20:38:59.597",
+      "time_mjd": 61218.860412,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-274",
+      "central_wavelength_um": 1.8954
+    },
+    {
+      "id": "602d3c6cd839",
+      "target": "M101",
+      "time_iso": "2026-07-01 06:13:19.546",
+      "time_mjd": 61222.259254,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-274",
+      "central_wavelength_um": 1.3854
+    },
+    {
+      "id": "0e48101ff911",
+      "target": "M101",
+      "time_iso": "2026-07-05 20:51:40.694",
+      "time_mjd": 61226.869221,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-275",
+      "central_wavelength_um": 1.4532
+    },
+    {
+      "id": "1093b7f1fe5c",
+      "target": "M101",
+      "time_iso": "2026-07-06 08:20:16.915",
+      "time_mjd": 61227.347418,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-275",
+      "central_wavelength_um": 2.0774
+    },
+    {
+      "id": "95d04f00c904",
+      "target": "M101",
+      "time_iso": "2026-07-10 16:32:36.470",
+      "time_mjd": 61231.689311,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-276",
+      "central_wavelength_um": 2.4093
+    },
+    {
+      "id": "3534f9a77a99",
+      "target": "M101",
+      "time_iso": "2026-07-11 02:21:05.126",
+      "time_mjd": 61232.097976,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-276",
+      "central_wavelength_um": 1.2111
+    },
+    {
+      "id": "b37cbaa03d0a",
+      "target": "M101",
+      "time_iso": "2026-07-14 05:17:51.331",
+      "time_mjd": 61235.220733,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-276",
+      "central_wavelength_um": 1.6282
+    },
+    {
+      "id": "201dc0b3153b",
+      "target": "M101",
+      "time_iso": "2026-07-14 21:35:31.747",
+      "time_mjd": 61235.899673,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-276",
+      "central_wavelength_um": 2.2277
+    },
+    {
+      "id": "720b30ce3c17",
+      "target": "M101",
+      "time_iso": "2026-07-17 14:46:09.005",
+      "time_mjd": 61238.615382,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-277",
+      "central_wavelength_um": 1.405
+    },
+    {
+      "id": "a461e4733e7a",
+      "target": "M101",
+      "time_iso": "2026-07-19 15:40:31.728",
+      "time_mjd": 61240.653145,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-277",
+      "central_wavelength_um": 1.9433
+    },
+    {
+      "id": "529b8d0baa47",
+      "target": "M101",
+      "time_iso": "2026-07-20 11:14:24.835",
+      "time_mjd": 61241.468343,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-222",
+      "central_wavelength_um": 1.3419
+    },
+    {
+      "id": "b564932a4cbc",
+      "target": "M101",
+      "time_iso": "2026-07-24 04:47:04.099",
+      "time_mjd": 61245.199353,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-224",
+      "central_wavelength_um": 1.4416
+    },
+    {
+      "id": "c58e90cf63d7",
+      "target": "M101",
+      "time_iso": "2026-07-27 14:10:36.307",
+      "time_mjd": 61248.590698,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-224",
+      "central_wavelength_um": 1.1405
+    },
+    {
+      "id": "6612c8d6a63c",
+      "target": "M101",
+      "time_iso": "2026-07-28 16:15:36.346",
+      "time_mjd": 61249.677504,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-224",
+      "central_wavelength_um": 2.2581
+    },
+    {
+      "id": "aef153ec2298",
+      "target": "M101",
+      "time_iso": "2026-08-01 14:46:15.571",
+      "time_mjd": 61253.615458,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-224",
+      "central_wavelength_um": 1.9736
+    },
+    {
+      "id": "7999b841743c",
+      "target": "M101",
+      "time_iso": "2026-08-02 20:11:39.898",
+      "time_mjd": 61254.841434,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-224",
+      "central_wavelength_um": 1.3789
+    },
+    {
+      "id": "9d70a648b360",
+      "target": "M101",
+      "time_iso": "2026-08-05 19:56:46.694",
+      "time_mjd": 61257.831096,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-223",
+      "central_wavelength_um": 2.3187
+    },
+    {
+      "id": "966d1e0751ce",
+      "target": "M101",
+      "time_iso": "2026-08-06 12:13:22.656",
+      "time_mjd": 61258.50929,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-223",
+      "central_wavelength_um": 1.6096
+    },
+    {
+      "id": "334343b0691c",
+      "target": "M101",
+      "time_iso": "2026-08-08 17:52:50.246",
+      "time_mjd": 61260.745026,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-223",
+      "central_wavelength_um": 1.6313
+    },
+    {
+      "id": "72be04ecde2d",
+      "target": "M101",
+      "time_iso": "2026-08-10 10:35:58.474",
+      "time_mjd": 61262.441649,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-240",
+      "central_wavelength_um": 2.27
+    },
+    {
+      "id": "3794d17960fe",
+      "target": "M101",
+      "time_iso": "2026-08-14 12:18:15.552",
+      "time_mjd": 61266.51268,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-241",
+      "central_wavelength_um": 1.1028
+    },
+    {
+      "id": "c7540fbcba80",
+      "target": "M101",
+      "time_iso": "2026-08-17 02:20:05.251",
+      "time_mjd": 61269.097283,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.9802
+    },
+    {
+      "id": "77f995bcb478",
+      "target": "M101",
+      "time_iso": "2026-08-17 12:04:39.072",
+      "time_mjd": 61269.50323,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.4185
+    },
+    {
+      "id": "19a97cc778fd",
+      "target": "M101",
+      "time_iso": "2026-08-20 08:24:55.987",
+      "time_mjd": 61272.350648,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.9548
+    },
+    {
+      "id": "66695931a28a",
+      "target": "M101",
+      "time_iso": "2026-08-22 19:10:00.854",
+      "time_mjd": 61274.798621,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.563
+    },
+    {
+      "id": "9097e0d7d07f",
+      "target": "M101",
+      "time_iso": "2026-08-23 16:17:48.451",
+      "time_mjd": 61275.679033,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.9393
+    },
+    {
+      "id": "034f8973d6f7",
+      "target": "M101",
+      "time_iso": "2026-08-27 03:23:08.016",
+      "time_mjd": 61279.141065,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-243",
+      "central_wavelength_um": 1.3672
+    },
+    {
+      "id": "7152aee07ebc",
+      "target": "M101",
+      "time_iso": "2026-08-27 14:43:17.674",
+      "time_mjd": 61279.613399,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-246",
+      "central_wavelength_um": 1.8981
+    },
+    {
+      "id": "fcfff70f44f6",
+      "target": "M101",
+      "time_iso": "2026-08-30 06:17:31.402",
+      "time_mjd": 61282.262169,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-246",
+      "central_wavelength_um": 1.4912
+    },
+    {
+      "id": "cd139612b409",
+      "target": "M101",
+      "time_iso": "2026-08-31 00:17:02.285",
+      "time_mjd": 61283.011832,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-252",
+      "central_wavelength_um": 2.1802
+    },
+    {
+      "id": "9fb7cc9a2589",
+      "target": "M101",
+      "time_iso": "2026-09-02 15:44:03.149",
+      "time_mjd": 61285.655592,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-252",
+      "central_wavelength_um": 1.2965
+    },
+    {
+      "id": "8522f95001fc",
+      "target": "M101",
+      "time_iso": "2026-09-03 19:32:25.670",
+      "time_mjd": 61286.814186,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-254",
+      "central_wavelength_um": 2.3372
+    },
+    {
+      "id": "a6edc49a208c",
+      "target": "M101",
+      "time_iso": "2026-09-06 19:11:21.034",
+      "time_mjd": 61289.799549,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-254",
+      "central_wavelength_um": 1.4591
+    },
+    {
+      "id": "c1be5bb5b312",
+      "target": "M101",
+      "time_iso": "2026-09-07 06:28:28.042",
+      "time_mjd": 61290.269769,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-255",
+      "central_wavelength_um": 1.6354
+    },
+    {
+      "id": "5c446f65e54e",
+      "target": "M101",
+      "time_iso": "2026-09-08 19:56:44.966",
+      "time_mjd": 61291.831076,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-255",
+      "central_wavelength_um": 1.6436
+    },
+    {
+      "id": "317f6817e84e",
+      "target": "M101",
+      "time_iso": "2026-09-11 00:09:41.558",
+      "time_mjd": 61294.006731,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b_retry-v27-2026-261",
+      "central_wavelength_um": 2.0892
+    },
+    {
+      "id": "ca4d4dea6677",
+      "target": "M101",
+      "time_iso": "2026-09-14 04:39:11.664",
+      "time_mjd": 61297.193885,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-261",
+      "central_wavelength_um": 1.1548
+    },
+    {
+      "id": "c019bfa8c661",
+      "target": "M101",
+      "time_iso": "2026-09-15 18:12:14.141",
+      "time_mjd": 61298.758497,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-261",
+      "central_wavelength_um": 1.8223
+    },
+    {
+      "id": "850dd72404cc",
+      "target": "M101",
+      "time_iso": "2026-09-18 03:09:07.949",
+      "time_mjd": 61301.131342,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-264",
+      "central_wavelength_um": 1.4992
+    },
+    {
+      "id": "63df90f99442",
+      "target": "M101",
+      "time_iso": "2026-09-19 23:07:10.502",
+      "time_mjd": 61302.963316,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-264",
+      "central_wavelength_um": 2.0448
+    },
+    {
+      "id": "d6c710715a85",
+      "target": "M101",
+      "time_iso": "2026-09-22 03:18:33.350",
+      "time_mjd": 61305.137886,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-268",
+      "central_wavelength_um": 1.197
+    },
+    {
+      "id": "279c3f320389",
+      "target": "M101",
+      "time_iso": "2026-09-24 20:29:58.128",
+      "time_mjd": 61307.854145,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-271",
+      "central_wavelength_um": 1.8674
+    },
+    {
+      "id": "3b8d399c5411",
+      "target": "M101",
+      "time_iso": "2026-09-29 01:33:04.118",
+      "time_mjd": 61312.064631,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-276",
+      "central_wavelength_um": 2.0965
+    },
+    {
+      "id": "69a16dab10f6",
+      "target": "M101",
+      "time_iso": "2026-09-29 07:57:19.699",
+      "time_mjd": 61312.331478,
+      "detector": "SPHEREx-D2",
+      "release": "QR3",
+      "version": "l2b-v27-2026-276",
+      "central_wavelength_um": 1.539
+    },
+    {
+      "id": "d78eece3d0f5",
+      "target": "M101",
+      "time_iso": "2026-10-02 06:03:20.362",
+      "time_mjd": 61315.252319,
+      "detector": "SPHEREx-D3",
+      "release": "QR3",
+      "version": "l2b-v27-2026-285",
+      "central_wavelength_um": 2.0514
     }
   ],
-  "count": 8,
+  "count": 356,
+  "sample_mode": true,
+  "sample_reason": "Bundled verified real SPHEREx observation dataset",
   "meta": {
-    "5fcb9d0cd028": {
-      "id": "5fcb9d0cd028",
-      "target": "M101",
-      "central_wavelength_um": 1.5069,
+    "0076cf35d23d": {
+      "id": "0076cf35d23d",
+      "central_wavelength_um": 2.1757,
       "version": "7.0.5",
       "release": "DR1"
     },
-    "e7fd997214e5": {
-      "id": "e7fd997214e5",
-      "target": "M101",
-      "central_wavelength_um": 1.4082,
+    "0116a5ec52a7": {
+      "id": "0116a5ec52a7",
+      "central_wavelength_um": 1.2672,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "01ddb7d5ed85": {
+      "id": "01ddb7d5ed85",
+      "central_wavelength_um": 0.7836,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "034f8973d6f7": {
+      "id": "034f8973d6f7",
+      "central_wavelength_um": 1.3672,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "04abcbd244c5": {
+      "id": "04abcbd244c5",
+      "central_wavelength_um": 1.3078,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "0510619fed00": {
+      "id": "0510619fed00",
+      "central_wavelength_um": 1.573,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "053ba112b2b6": {
+      "id": "053ba112b2b6",
+      "central_wavelength_um": 1.4307,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "0558d4527649": {
+      "id": "0558d4527649",
+      "central_wavelength_um": 2.2367,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "076119c045d9": {
+      "id": "076119c045d9",
+      "central_wavelength_um": 1.2617,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "08ffdd09290f": {
+      "id": "08ffdd09290f",
+      "central_wavelength_um": 1.1618,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "0ae049849fb5": {
+      "id": "0ae049849fb5",
+      "central_wavelength_um": 1.5259,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "0e48101ff911": {
+      "id": "0e48101ff911",
+      "central_wavelength_um": 1.4532,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "0fa6be735a37": {
+      "id": "0fa6be735a37",
+      "central_wavelength_um": 0.8213,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "0fb198ac3999": {
+      "id": "0fb198ac3999",
+      "central_wavelength_um": 1.1326,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "1093b7f1fe5c": {
+      "id": "1093b7f1fe5c",
+      "central_wavelength_um": 2.0774,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "1106eec0e26f": {
+      "id": "1106eec0e26f",
+      "central_wavelength_um": 1.9599,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "1230bbff2f54": {
+      "id": "1230bbff2f54",
+      "central_wavelength_um": 1.266,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "1234f0cb9357": {
+      "id": "1234f0cb9357",
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-222",
+      "release": "DR1"
+    },
+    "12e70391803f": {
+      "id": "12e70391803f",
+      "central_wavelength_um": 0.8604,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "1370ed918175": {
+      "id": "1370ed918175",
+      "central_wavelength_um": 1.1621,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "1421f448b4d5": {
+      "id": "1421f448b4d5",
+      "central_wavelength_um": 1.6424,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "146d861e5949": {
+      "id": "146d861e5949",
+      "central_wavelength_um": 1.4296,
       "version": "7.0.5",
       "release": "DR1"
     },
     "17d316f08781": {
       "id": "17d316f08781",
-      "target": "M101",
-      "central_wavelength_um": 1.1536,
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-209",
+      "release": "DR1"
+    },
+    "18a374207366": {
+      "id": "18a374207366",
+      "central_wavelength_um": 1.8403,
       "version": "7.0.5",
       "release": "DR1"
     },
-    "5ef4de9a9c5f": {
-      "id": "5ef4de9a9c5f",
-      "target": "M101",
-      "central_wavelength_um": 1.5631,
+    "18ad2ecfaa6b": {
+      "id": "18ad2ecfaa6b",
+      "central_wavelength_um": 1.8974,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "18ae28e8bb07": {
+      "id": "18ae28e8bb07",
+      "central_wavelength_um": 1.4665,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "18ff6236326d": {
+      "id": "18ff6236326d",
+      "central_wavelength_um": 1.5388,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "193a56f86393": {
+      "id": "193a56f86393",
+      "central_wavelength_um": 1.3923,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "19984a0d4251": {
+      "id": "19984a0d4251",
+      "central_wavelength_um": 2.3821,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "19a97cc778fd": {
+      "id": "19a97cc778fd",
+      "central_wavelength_um": 1.9548,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "1cb16c651705": {
+      "id": "1cb16c651705",
+      "central_wavelength_um": 1.3661,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "1cb3243e24c0": {
+      "id": "1cb3243e24c0",
+      "central_wavelength_um": 1.2964,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "1eaa83317aa3": {
+      "id": "1eaa83317aa3",
+      "central_wavelength_um": 1.0303,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "1f229853de4c": {
+      "id": "1f229853de4c",
+      "central_wavelength_um": 1.524,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "1fe1ff3ff03b": {
+      "id": "1fe1ff3ff03b",
+      "central_wavelength_um": 2.3858,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "201dc0b3153b": {
+      "id": "201dc0b3153b",
+      "central_wavelength_um": 2.2277,
       "version": "7.0.5",
       "release": "QR3"
     },
     "20473c482b2c": {
       "id": "20473c482b2c",
-      "target": "NGC 6543",
-      "central_wavelength_um": 1.6273,
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-196",
+      "release": "DR1"
+    },
+    "2053cdff5074": {
+      "id": "2053cdff5074",
+      "central_wavelength_um": 1.5314,
       "version": "7.0.5",
       "release": "DR1"
     },
-    "fe9c41f0121c": {
-      "id": "fe9c41f0121c",
-      "target": "NGC 6543",
-      "central_wavelength_um": 2.0433,
+    "20f936de3258": {
+      "id": "20f936de3258",
+      "central_wavelength_um": 1.7484,
       "version": "7.0.5",
       "release": "DR1"
     },
-    "1234f0cb9357": {
-      "id": "1234f0cb9357",
-      "target": "NGC 6543",
-      "central_wavelength_um": 1.8573,
+    "21a569917826": {
+      "id": "21a569917826",
+      "central_wavelength_um": 1.4975,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2223d558c887": {
+      "id": "2223d558c887",
+      "central_wavelength_um": 1.2817,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "22586bc74aa9": {
+      "id": "22586bc74aa9",
+      "central_wavelength_um": 1.1058,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "225da1ba919f": {
+      "id": "225da1ba919f",
+      "central_wavelength_um": 1.6388,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "226e5cc77886": {
+      "id": "226e5cc77886",
+      "central_wavelength_um": 1.1098,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2329e0486e0d": {
+      "id": "2329e0486e0d",
+      "central_wavelength_um": 1.487,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2350d3a41f5f": {
+      "id": "2350d3a41f5f",
+      "central_wavelength_um": 1.3827,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "254f48fba700": {
+      "id": "254f48fba700",
+      "central_wavelength_um": 1.1595,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "25911a4a7d24": {
+      "id": "25911a4a7d24",
+      "central_wavelength_um": 1.662,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "279c3f320389": {
+      "id": "279c3f320389",
+      "central_wavelength_um": 1.8674,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "28a22566a4e6": {
+      "id": "28a22566a4e6",
+      "central_wavelength_um": 1.238,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2abd352f04d2": {
+      "id": "2abd352f04d2",
+      "central_wavelength_um": 0.8712,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "2af825e14142": {
+      "id": "2af825e14142",
+      "central_wavelength_um": 1.2466,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2e06d51a7b4b": {
+      "id": "2e06d51a7b4b",
+      "central_wavelength_um": 1.8967,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2eb51f773c61": {
+      "id": "2eb51f773c61",
+      "central_wavelength_um": 1.294,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "2f9c10ef205d": {
+      "id": "2f9c10ef205d",
+      "central_wavelength_um": 1.3906,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "30791166bba3": {
+      "id": "30791166bba3",
+      "central_wavelength_um": 1.5021,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "317f6817e84e": {
+      "id": "317f6817e84e",
+      "central_wavelength_um": 2.0892,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "31a5092f491e": {
+      "id": "31a5092f491e",
+      "central_wavelength_um": 0.9968,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "31e4f49051c4": {
+      "id": "31e4f49051c4",
+      "central_wavelength_um": 1.4205,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "31f7bf7bd9cb": {
+      "id": "31f7bf7bd9cb",
+      "central_wavelength_um": 1.1329,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "334343b0691c": {
+      "id": "334343b0691c",
+      "central_wavelength_um": 1.6313,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "34015c20886a": {
+      "id": "34015c20886a",
+      "central_wavelength_um": 1.194,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "34291c40c0ac": {
+      "id": "34291c40c0ac",
+      "central_wavelength_um": 1.4559,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3534f9a77a99": {
+      "id": "3534f9a77a99",
+      "central_wavelength_um": 1.2111,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "35b6c6afb6b3": {
+      "id": "35b6c6afb6b3",
+      "central_wavelength_um": 1.2105,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "35db60033240": {
+      "id": "35db60033240",
+      "central_wavelength_um": 1.0993,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "37081b3ae79a": {
+      "id": "37081b3ae79a",
+      "central_wavelength_um": 1.6436,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3794d17960fe": {
+      "id": "3794d17960fe",
+      "central_wavelength_um": 1.1028,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "387b51340d6e": {
+      "id": "387b51340d6e",
+      "central_wavelength_um": 1.1337,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "394c438be399": {
+      "id": "394c438be399",
+      "central_wavelength_um": 1.4154,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "3988d6c48b58": {
+      "id": "3988d6c48b58",
+      "central_wavelength_um": 1.6617,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "39abb9d27430": {
+      "id": "39abb9d27430",
+      "central_wavelength_um": 0.7575,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "39bf9728ad65": {
+      "id": "39bf9728ad65",
+      "central_wavelength_um": 1.571,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3a68506b53a4": {
+      "id": "3a68506b53a4",
+      "central_wavelength_um": 1.4335,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3af957b61906": {
+      "id": "3af957b61906",
+      "central_wavelength_um": 2.0546,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3b6272bdfe62": {
+      "id": "3b6272bdfe62",
+      "central_wavelength_um": 0.7729,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3b8d399c5411": {
+      "id": "3b8d399c5411",
+      "central_wavelength_um": 2.0965,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "3bf0fc6ee809": {
+      "id": "3bf0fc6ee809",
+      "central_wavelength_um": 1.9033,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3cb763bc82aa": {
+      "id": "3cb763bc82aa",
+      "central_wavelength_um": 0.9738,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "3e1119ab11a6": {
+      "id": "3e1119ab11a6",
+      "central_wavelength_um": 1.1247,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "40e92e1fc2eb": {
+      "id": "40e92e1fc2eb",
+      "central_wavelength_um": 1.6701,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "43cb0cc3c73d": {
+      "id": "43cb0cc3c73d",
+      "central_wavelength_um": 1.6215,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "440524620bc6": {
+      "id": "440524620bc6",
+      "central_wavelength_um": 1.6908,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "45260f8a7271": {
+      "id": "45260f8a7271",
+      "central_wavelength_um": 1.4177,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "457bb734bea0": {
+      "id": "457bb734bea0",
+      "central_wavelength_um": 1.4844,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "478fd9db9d55": {
+      "id": "478fd9db9d55",
+      "central_wavelength_um": 1.4374,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "48436690bfbd": {
+      "id": "48436690bfbd",
+      "central_wavelength_um": 1.747,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "493956f42b4e": {
+      "id": "493956f42b4e",
+      "central_wavelength_um": 1.1228,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "49b6e97b0367": {
+      "id": "49b6e97b0367",
+      "central_wavelength_um": 1.159,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "49b90da8bede": {
+      "id": "49b90da8bede",
+      "central_wavelength_um": 1.1788,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4a61701a7b23": {
+      "id": "4a61701a7b23",
+      "central_wavelength_um": 1.244,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4b827a977b10": {
+      "id": "4b827a977b10",
+      "central_wavelength_um": 0.913,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "4bbe6cec8878": {
+      "id": "4bbe6cec8878",
+      "central_wavelength_um": 1.3755,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4bf1b0663e3b": {
+      "id": "4bf1b0663e3b",
+      "central_wavelength_um": 0.907,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4d2379c786d2": {
+      "id": "4d2379c786d2",
+      "central_wavelength_um": 0.8657,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4d27fd242251": {
+      "id": "4d27fd242251",
+      "central_wavelength_um": 1.5432,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4df534895ecb": {
+      "id": "4df534895ecb",
+      "central_wavelength_um": 1.432,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "4ff7f30eea2a": {
+      "id": "4ff7f30eea2a",
+      "central_wavelength_um": 2.3283,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "50d9664143c9": {
+      "id": "50d9664143c9",
+      "central_wavelength_um": 1.9145,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "510e730b2464": {
+      "id": "510e730b2464",
+      "central_wavelength_um": 1.385,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5117a5e29e1c": {
+      "id": "5117a5e29e1c",
+      "central_wavelength_um": 1.3586,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "514f088da649": {
+      "id": "514f088da649",
+      "central_wavelength_um": 2.0908,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "516118fa2e50": {
+      "id": "516118fa2e50",
+      "central_wavelength_um": 1.5397,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "51911557d04d": {
+      "id": "51911557d04d",
+      "central_wavelength_um": 1.0143,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "51aa456bb494": {
+      "id": "51aa456bb494",
+      "central_wavelength_um": 1.1127,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "529b8d0baa47": {
+      "id": "529b8d0baa47",
+      "central_wavelength_um": 1.3419,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "52e2e51cd923": {
+      "id": "52e2e51cd923",
+      "central_wavelength_um": 1.52,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "5347e9886322": {
+      "id": "5347e9886322",
+      "central_wavelength_um": 1.3983,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "53564bf64643": {
+      "id": "53564bf64643",
+      "central_wavelength_um": 1.8772,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "53a1dfad0818": {
+      "id": "53a1dfad0818",
+      "central_wavelength_um": 1.9899,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5451715c3ecd": {
+      "id": "5451715c3ecd",
+      "central_wavelength_um": 2.1945,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "559cfd25eb1b": {
+      "id": "559cfd25eb1b",
+      "central_wavelength_um": 1.2219,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5603c428e5e2": {
+      "id": "5603c428e5e2",
+      "central_wavelength_um": 0.929,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "56fa60a9eb64": {
+      "id": "56fa60a9eb64",
+      "central_wavelength_um": 1.598,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "593c4efb809a": {
+      "id": "593c4efb809a",
+      "central_wavelength_um": 1.7287,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5958102bb7c1": {
+      "id": "5958102bb7c1",
+      "central_wavelength_um": 1.5535,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "59b757064656": {
+      "id": "59b757064656",
+      "central_wavelength_um": 1.7481,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "59fb2e8e50d9": {
+      "id": "59fb2e8e50d9",
+      "central_wavelength_um": 2.2569,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5b0594b01fe3": {
+      "id": "5b0594b01fe3",
+      "central_wavelength_um": 1.5233,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "5bc8a7944c8b": {
+      "id": "5bc8a7944c8b",
+      "central_wavelength_um": 2.0328,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5c446f65e54e": {
+      "id": "5c446f65e54e",
+      "central_wavelength_um": 1.6436,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "5c80a99c04e9": {
+      "id": "5c80a99c04e9",
+      "central_wavelength_um": 1.185,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5d137de9eb64": {
+      "id": "5d137de9eb64",
+      "central_wavelength_um": 2.2523,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5ef4de9a9c5f": {
+      "id": "5ef4de9a9c5f",
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-268",
+      "release": "QR3"
+    },
+    "5f15e90063e8": {
+      "id": "5f15e90063e8",
+      "central_wavelength_um": 1.8561,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "5fcb9d0cd028": {
+      "id": "5fcb9d0cd028",
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-198",
+      "release": "DR1"
+    },
+    "602d3c6cd839": {
+      "id": "602d3c6cd839",
+      "central_wavelength_um": 1.3854,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "607a02830359": {
+      "id": "607a02830359",
+      "central_wavelength_um": 1.9829,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "635c8770aeba": {
+      "id": "635c8770aeba",
+      "central_wavelength_um": 1.52,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "63b426acedd1": {
+      "id": "63b426acedd1",
+      "central_wavelength_um": 1.5036,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "63df90f99442": {
+      "id": "63df90f99442",
+      "central_wavelength_um": 2.0448,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "6416eb234462": {
+      "id": "6416eb234462",
+      "central_wavelength_um": 1.9178,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "654a99ccfdf2": {
+      "id": "654a99ccfdf2",
+      "central_wavelength_um": 1.2306,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "6608a792bcf5": {
+      "id": "6608a792bcf5",
+      "central_wavelength_um": 2.2489,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "6612c8d6a63c": {
+      "id": "6612c8d6a63c",
+      "central_wavelength_um": 2.2581,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "6640fe6d6457": {
+      "id": "6640fe6d6457",
+      "central_wavelength_um": 0.8919,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "66695931a28a": {
+      "id": "66695931a28a",
+      "central_wavelength_um": 1.563,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "677e4421ab36": {
+      "id": "677e4421ab36",
+      "central_wavelength_um": 0.7746,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "685151159846": {
+      "id": "685151159846",
+      "central_wavelength_um": 1.5469,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "68553c4805d4": {
+      "id": "68553c4805d4",
+      "central_wavelength_um": 1.1557,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "685c464f484c": {
+      "id": "685c464f484c",
+      "central_wavelength_um": 2.3223,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "68bc970d8509": {
+      "id": "68bc970d8509",
+      "central_wavelength_um": 0.9508,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "69a16dab10f6": {
+      "id": "69a16dab10f6",
+      "central_wavelength_um": 1.539,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "6bf279dab18f": {
+      "id": "6bf279dab18f",
+      "central_wavelength_um": 1.1388,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "6e37143938f7": {
+      "id": "6e37143938f7",
+      "central_wavelength_um": 1.8166,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "6e9199a68bf5": {
+      "id": "6e9199a68bf5",
+      "central_wavelength_um": 1.4904,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "6f50aada4f3e": {
+      "id": "6f50aada4f3e",
+      "central_wavelength_um": 1.4841,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "70d632f3c521": {
+      "id": "70d632f3c521",
+      "central_wavelength_um": 2.1808,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "70df79de0cbf": {
+      "id": "70df79de0cbf",
+      "central_wavelength_um": 2.2408,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7152aee07ebc": {
+      "id": "7152aee07ebc",
+      "central_wavelength_um": 1.8981,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "7206ac11de9d": {
+      "id": "7206ac11de9d",
+      "central_wavelength_um": 1.1068,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "720b30ce3c17": {
+      "id": "720b30ce3c17",
+      "central_wavelength_um": 1.405,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "7223da1f6835": {
+      "id": "7223da1f6835",
+      "central_wavelength_um": 1.1663,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "72be04ecde2d": {
+      "id": "72be04ecde2d",
+      "central_wavelength_um": 2.27,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "73115b2fdcd4": {
+      "id": "73115b2fdcd4",
+      "central_wavelength_um": 1.9068,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7568cd4e6f9e": {
+      "id": "7568cd4e6f9e",
+      "central_wavelength_um": 2.2965,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "75fbbb9275e2": {
+      "id": "75fbbb9275e2",
+      "central_wavelength_um": 1.0802,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "76ff385c9ff7": {
+      "id": "76ff385c9ff7",
+      "central_wavelength_um": 1.4674,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "77f995bcb478": {
+      "id": "77f995bcb478",
+      "central_wavelength_um": 1.4185,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "7841dc694f2b": {
+      "id": "7841dc694f2b",
+      "central_wavelength_um": 1.6734,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "78eb1ccdabf4": {
+      "id": "78eb1ccdabf4",
+      "central_wavelength_um": 2.3881,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7955f4b52ad2": {
+      "id": "7955f4b52ad2",
+      "central_wavelength_um": 1.6517,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7999b841743c": {
+      "id": "7999b841743c",
+      "central_wavelength_um": 1.3789,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "79c59d4b61ae": {
+      "id": "79c59d4b61ae",
+      "central_wavelength_um": 1.1434,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7b3753f0e857": {
+      "id": "7b3753f0e857",
+      "central_wavelength_um": 1.1211,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7bb5395ab59c": {
+      "id": "7bb5395ab59c",
+      "central_wavelength_um": 0.881,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7c0272a4f6d9": {
+      "id": "7c0272a4f6d9",
+      "central_wavelength_um": 1.8953,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "7c6df5ca3586": {
+      "id": "7c6df5ca3586",
+      "central_wavelength_um": 1.0953,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "7f8c4aa7fd29": {
+      "id": "7f8c4aa7fd29",
+      "central_wavelength_um": 1.4712,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8075e5161a2c": {
+      "id": "8075e5161a2c",
+      "central_wavelength_um": 1.7921,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "811514e9ca89": {
+      "id": "811514e9ca89",
+      "central_wavelength_um": 1.6677,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "81484f230cfc": {
+      "id": "81484f230cfc",
+      "central_wavelength_um": 1.6183,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "81f88bc5e994": {
+      "id": "81f88bc5e994",
+      "central_wavelength_um": 1.1957,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8303b28d7fe7": {
+      "id": "8303b28d7fe7",
+      "central_wavelength_um": 1.1893,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "84019d6a30da": {
+      "id": "84019d6a30da",
+      "central_wavelength_um": 0.9453,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "850dd72404cc": {
+      "id": "850dd72404cc",
+      "central_wavelength_um": 1.4992,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "8522f95001fc": {
+      "id": "8522f95001fc",
+      "central_wavelength_um": 2.3372,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "85c1ca6fe038": {
+      "id": "85c1ca6fe038",
+      "central_wavelength_um": 1.1519,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "86b55bac4e6d": {
+      "id": "86b55bac4e6d",
+      "central_wavelength_um": 1.3385,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "86b97d778e30": {
+      "id": "86b97d778e30",
+      "central_wavelength_um": 1.181,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8724d74a24e2": {
+      "id": "8724d74a24e2",
+      "central_wavelength_um": 1.6363,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "87bcab1f3a87": {
+      "id": "87bcab1f3a87",
+      "central_wavelength_um": 1.327,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8aec0fe07126": {
+      "id": "8aec0fe07126",
+      "central_wavelength_um": 1.4741,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8b1843cf6b18": {
+      "id": "8b1843cf6b18",
+      "central_wavelength_um": 2.0562,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8c403e4801aa": {
+      "id": "8c403e4801aa",
+      "central_wavelength_um": 1.1472,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8e5d2c4342d7": {
+      "id": "8e5d2c4342d7",
+      "central_wavelength_um": 1.6018,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "8f07544e487a": {
+      "id": "8f07544e487a",
+      "central_wavelength_um": 1.8954,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "8fca78131abe": {
+      "id": "8fca78131abe",
+      "central_wavelength_um": 2.2255,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "8fd43943a4bd": {
+      "id": "8fd43943a4bd",
+      "central_wavelength_um": 1.8516,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "9021a3c3a783": {
+      "id": "9021a3c3a783",
+      "central_wavelength_um": 1.9232,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9097e0d7d07f": {
+      "id": "9097e0d7d07f",
+      "central_wavelength_um": 1.9393,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "91c673379480": {
+      "id": "91c673379480",
+      "central_wavelength_um": 0.9677,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "91d7c6973198": {
+      "id": "91d7c6973198",
+      "central_wavelength_um": 1.1284,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "92473006def1": {
+      "id": "92473006def1",
+      "central_wavelength_um": 1.0386,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "92491278bc87": {
+      "id": "92491278bc87",
+      "central_wavelength_um": 0.7487,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "929e6332d8fa": {
+      "id": "929e6332d8fa",
+      "central_wavelength_um": 1.471,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "942ac207000e": {
+      "id": "942ac207000e",
+      "central_wavelength_um": 2.1374,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9448dd623fd3": {
+      "id": "9448dd623fd3",
+      "central_wavelength_um": 0.9233,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "95d04f00c904": {
+      "id": "95d04f00c904",
+      "central_wavelength_um": 2.4093,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "95f93c1efc83": {
+      "id": "95f93c1efc83",
+      "central_wavelength_um": 1.2225,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "963d08ce94db": {
+      "id": "963d08ce94db",
+      "central_wavelength_um": 1.6531,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "966d1e0751ce": {
+      "id": "966d1e0751ce",
+      "central_wavelength_um": 1.6096,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "96b664628edf": {
+      "id": "96b664628edf",
+      "central_wavelength_um": 1.6449,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "96d7e952d31f": {
+      "id": "96d7e952d31f",
+      "central_wavelength_um": 1.0631,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9739f30fe881": {
+      "id": "9739f30fe881",
+      "central_wavelength_um": 1.881,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "98048f4467b7": {
+      "id": "98048f4467b7",
+      "central_wavelength_um": 1.1216,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "98214c29f79c": {
+      "id": "98214c29f79c",
+      "central_wavelength_um": 1.6149,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "992826a19995": {
+      "id": "992826a19995",
+      "central_wavelength_um": 1.3306,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9ac2d7271d8a": {
+      "id": "9ac2d7271d8a",
+      "central_wavelength_um": 1.353,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9acc3dd6b40b": {
+      "id": "9acc3dd6b40b",
+      "central_wavelength_um": 1.5806,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9bfdd55fc957": {
+      "id": "9bfdd55fc957",
+      "central_wavelength_um": 1.7746,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9c2230b78af6": {
+      "id": "9c2230b78af6",
+      "central_wavelength_um": 1.2153,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9c7c20cfd373": {
+      "id": "9c7c20cfd373",
+      "central_wavelength_um": 1.6592,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9c85b0084ae1": {
+      "id": "9c85b0084ae1",
+      "central_wavelength_um": 1.8135,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9d70a648b360": {
+      "id": "9d70a648b360",
+      "central_wavelength_um": 2.3187,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "9e762f533f88": {
+      "id": "9e762f533f88",
+      "central_wavelength_um": 0.8101,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9f57167bfbe0": {
+      "id": "9f57167bfbe0",
+      "central_wavelength_um": 1.9136,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "9fb7cc9a2589": {
+      "id": "9fb7cc9a2589",
+      "central_wavelength_um": 1.2965,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "a0406fb14e85": {
+      "id": "a0406fb14e85",
+      "central_wavelength_um": 1.6223,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a134799b2f89": {
+      "id": "a134799b2f89",
+      "central_wavelength_um": 0.7389,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a149eabf0813": {
+      "id": "a149eabf0813",
+      "central_wavelength_um": 1.683,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a264c1c2217f": {
+      "id": "a264c1c2217f",
+      "central_wavelength_um": 2.0125,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a2ee1aa6a4d9": {
+      "id": "a2ee1aa6a4d9",
+      "central_wavelength_um": 1.127,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a3b0b6188e5a": {
+      "id": "a3b0b6188e5a",
+      "central_wavelength_um": 1.6211,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a461e4733e7a": {
+      "id": "a461e4733e7a",
+      "central_wavelength_um": 1.9433,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "a56366699237": {
+      "id": "a56366699237",
+      "central_wavelength_um": 1.6215,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "a6edc49a208c": {
+      "id": "a6edc49a208c",
+      "central_wavelength_um": 1.4591,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "a972dbd98660": {
+      "id": "a972dbd98660",
+      "central_wavelength_um": 0.8864,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "abc98bc8d43d": {
+      "id": "abc98bc8d43d",
+      "central_wavelength_um": 1.2398,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "abd9a9411de6": {
+      "id": "abd9a9411de6",
+      "central_wavelength_um": 2.2555,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ac3234ac7a4f": {
+      "id": "ac3234ac7a4f",
+      "central_wavelength_um": 1.3638,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ac73ee6ae285": {
+      "id": "ac73ee6ae285",
+      "central_wavelength_um": 2.3083,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ad4c66da62e6": {
+      "id": "ad4c66da62e6",
+      "central_wavelength_um": 2.1564,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ad626f945bd1": {
+      "id": "ad626f945bd1",
+      "central_wavelength_um": 0.9908,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ae9b7531dc72": {
+      "id": "ae9b7531dc72",
+      "central_wavelength_um": 1.6132,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "aeeb4f61556a": {
+      "id": "aeeb4f61556a",
+      "central_wavelength_um": 1.9857,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "aef153ec2298": {
+      "id": "aef153ec2298",
+      "central_wavelength_um": 1.9736,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "aefff3e976d0": {
+      "id": "aefff3e976d0",
+      "central_wavelength_um": 1.1584,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b07a48ace845": {
+      "id": "b07a48ace845",
+      "central_wavelength_um": 1.4552,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "b1e8ac20f7ba": {
+      "id": "b1e8ac20f7ba",
+      "central_wavelength_um": 1.0899,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b2b37745eb0f": {
+      "id": "b2b37745eb0f",
+      "central_wavelength_um": 1.4494,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "b2da97d1ef37": {
+      "id": "b2da97d1ef37",
+      "central_wavelength_um": 1.3123,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b321fc7fa601": {
+      "id": "b321fc7fa601",
+      "central_wavelength_um": 1.8115,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b35380657feb": {
+      "id": "b35380657feb",
+      "central_wavelength_um": 1.1535,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b37cbaa03d0a": {
+      "id": "b37cbaa03d0a",
+      "central_wavelength_um": 1.6282,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "b453674e9a84": {
+      "id": "b453674e9a84",
+      "central_wavelength_um": 1.0953,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b557dfa90aa2": {
+      "id": "b557dfa90aa2",
+      "central_wavelength_um": 1.0888,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b564932a4cbc": {
+      "id": "b564932a4cbc",
+      "central_wavelength_um": 1.4416,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "b66a71b10ee5": {
+      "id": "b66a71b10ee5",
+      "central_wavelength_um": 1.3432,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b712c4950748": {
+      "id": "b712c4950748",
+      "central_wavelength_um": 1.6138,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b83692c2769d": {
+      "id": "b83692c2769d",
+      "central_wavelength_um": 0.7914,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b8833ad328a4": {
+      "id": "b8833ad328a4",
+      "central_wavelength_um": 1.5044,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "b9243b9ee565": {
+      "id": "b9243b9ee565",
+      "central_wavelength_um": 1.4492,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "b93be9e9aad9": {
+      "id": "b93be9e9aad9",
+      "central_wavelength_um": 1.3413,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ba1c092cf8aa": {
+      "id": "ba1c092cf8aa",
+      "central_wavelength_um": 1.1012,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ba98b921991e": {
+      "id": "ba98b921991e",
+      "central_wavelength_um": 1.0547,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "bb9ea7b58c02": {
+      "id": "bb9ea7b58c02",
+      "central_wavelength_um": 1.74,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "bea6c5a299ef": {
+      "id": "bea6c5a299ef",
+      "central_wavelength_um": 1.128,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "bee3735bd279": {
+      "id": "bee3735bd279",
+      "central_wavelength_um": 2.2879,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "bf3b598bd14b": {
+      "id": "bf3b598bd14b",
+      "central_wavelength_um": 1.7721,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "bfa862de3b86": {
+      "id": "bfa862de3b86",
+      "central_wavelength_um": 1.5945,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "c019bfa8c661": {
+      "id": "c019bfa8c661",
+      "central_wavelength_um": 1.8223,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "c0a54fc2e14c": {
+      "id": "c0a54fc2e14c",
+      "central_wavelength_um": 2.1986,
       "version": "7.0.5",
       "release": "DR1"
     },
     "c112261fef65": {
       "id": "c112261fef65",
-      "target": "NGC 6543",
-      "central_wavelength_um": 1.8102,
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-270",
+      "release": "QR3"
+    },
+    "c1be5bb5b312": {
+      "id": "c1be5bb5b312",
+      "central_wavelength_um": 1.6354,
       "version": "7.0.5",
       "release": "QR3"
+    },
+    "c2c921006d72": {
+      "id": "c2c921006d72",
+      "central_wavelength_um": 1.4209,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "c3d7c4155bfb": {
+      "id": "c3d7c4155bfb",
+      "central_wavelength_um": 2.3588,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "c45a6d76c1fb": {
+      "id": "c45a6d76c1fb",
+      "central_wavelength_um": 2.1555,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "c58e90cf63d7": {
+      "id": "c58e90cf63d7",
+      "central_wavelength_um": 1.1405,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "c65845461b9f": {
+      "id": "c65845461b9f",
+      "central_wavelength_um": 1.1522,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "c6f39816369b": {
+      "id": "c6f39816369b",
+      "central_wavelength_um": 0.7555,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "c72cb387465f": {
+      "id": "c72cb387465f",
+      "central_wavelength_um": 1.3733,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "c7540fbcba80": {
+      "id": "c7540fbcba80",
+      "central_wavelength_um": 1.9802,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "c845d94629e2": {
+      "id": "c845d94629e2",
+      "central_wavelength_um": 1.3896,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "c855f6a234d0": {
+      "id": "c855f6a234d0",
+      "central_wavelength_um": 1.2678,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ca46d968eb86": {
+      "id": "ca46d968eb86",
+      "central_wavelength_um": 1.0698,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ca4d4dea6677": {
+      "id": "ca4d4dea6677",
+      "central_wavelength_um": 1.1548,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cb02f4e9b44e": {
+      "id": "cb02f4e9b44e",
+      "central_wavelength_um": 1.1792,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cb28284bf970": {
+      "id": "cb28284bf970",
+      "central_wavelength_um": 0.7412,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cd139612b409": {
+      "id": "cd139612b409",
+      "central_wavelength_um": 2.1802,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cd429493a403": {
+      "id": "cd429493a403",
+      "central_wavelength_um": 1.252,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "cf071ee0527b": {
+      "id": "cf071ee0527b",
+      "central_wavelength_um": 0.9569,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cf63e61a6c84": {
+      "id": "cf63e61a6c84",
+      "central_wavelength_um": 1.5237,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cf6e97da5cb1": {
+      "id": "cf6e97da5cb1",
+      "central_wavelength_um": 1.3271,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "cf804ea8e745": {
+      "id": "cf804ea8e745",
+      "central_wavelength_um": 1.1593,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "cf88cffb022f": {
+      "id": "cf88cffb022f",
+      "central_wavelength_um": 2.1066,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d03b40d99821": {
+      "id": "d03b40d99821",
+      "central_wavelength_um": 2.3819,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d0b98dcb6bd5": {
+      "id": "d0b98dcb6bd5",
+      "central_wavelength_um": 1.6657,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d191d6f4b0fa": {
+      "id": "d191d6f4b0fa",
+      "central_wavelength_um": 1.4873,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d192b02481c8": {
+      "id": "d192b02481c8",
+      "central_wavelength_um": 1.6229,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d2291932540d": {
+      "id": "d2291932540d",
+      "central_wavelength_um": 1.1536,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d27973e4a3e5": {
+      "id": "d27973e4a3e5",
+      "central_wavelength_um": 1.8508,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d27b51566dfe": {
+      "id": "d27b51566dfe",
+      "central_wavelength_um": 1.875,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d2b69d6b5148": {
+      "id": "d2b69d6b5148",
+      "central_wavelength_um": 0.8294,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d2f60779c017": {
+      "id": "d2f60779c017",
+      "central_wavelength_um": 1.2364,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d329a3b5d696": {
+      "id": "d329a3b5d696",
+      "central_wavelength_um": 1.8212,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d3dd8c71ed2c": {
+      "id": "d3dd8c71ed2c",
+      "central_wavelength_um": 1.49,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d43fa5575023": {
+      "id": "d43fa5575023",
+      "central_wavelength_um": 1.5375,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d4e8329d0433": {
+      "id": "d4e8329d0433",
+      "central_wavelength_um": 1.2077,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d51e17a25b2e": {
+      "id": "d51e17a25b2e",
+      "central_wavelength_um": 1.7696,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d54e34e16502": {
+      "id": "d54e34e16502",
+      "central_wavelength_um": 1.5685,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d55b5ae28c77": {
+      "id": "d55b5ae28c77",
+      "central_wavelength_um": 2.2467,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d59970a9ee70": {
+      "id": "d59970a9ee70",
+      "central_wavelength_um": 1.5258,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d608d24c0770": {
+      "id": "d608d24c0770",
+      "central_wavelength_um": 1.1868,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d62fcce5eaa0": {
+      "id": "d62fcce5eaa0",
+      "central_wavelength_um": 1.8422,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "d687a80837a6": {
+      "id": "d687a80837a6",
+      "central_wavelength_um": 0.8121,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d6c710715a85": {
+      "id": "d6c710715a85",
+      "central_wavelength_um": 1.197,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "d78eece3d0f5": {
+      "id": "d78eece3d0f5",
+      "central_wavelength_um": 2.0514,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "db957d197c91": {
+      "id": "db957d197c91",
+      "central_wavelength_um": 1.8094,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "dbce9c10bc14": {
+      "id": "dbce9c10bc14",
+      "central_wavelength_um": 1.7808,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "dc5a3da1dbc1": {
+      "id": "dc5a3da1dbc1",
+      "central_wavelength_um": 1.8088,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "dfe21dbf608d": {
+      "id": "dfe21dbf608d",
+      "central_wavelength_um": 2.3936,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "e089d26799b2": {
+      "id": "e089d26799b2",
+      "central_wavelength_um": 1.576,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e08cb8d45ec4": {
+      "id": "e08cb8d45ec4",
+      "central_wavelength_um": 2.0842,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e127636a1a02": {
+      "id": "e127636a1a02",
+      "central_wavelength_um": 1.7944,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e1a3a6aa78f7": {
+      "id": "e1a3a6aa78f7",
+      "central_wavelength_um": 1.5397,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e2f97f51fd97": {
+      "id": "e2f97f51fd97",
+      "central_wavelength_um": 1.577,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e4eabce8d78a": {
+      "id": "e4eabce8d78a",
+      "central_wavelength_um": 1.6028,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e5efb836e577": {
+      "id": "e5efb836e577",
+      "central_wavelength_um": 0.9019,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e6461b3de0fe": {
+      "id": "e6461b3de0fe",
+      "central_wavelength_um": 1.1944,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "e73d829456af": {
+      "id": "e73d829456af",
+      "central_wavelength_um": 0.7934,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "e7fd997214e5": {
+      "id": "e7fd997214e5",
+      "central_wavelength_um": 1.5069,
+      "version": "l2b_retry-v27-2026-199",
+      "release": "DR1"
+    },
+    "e8d7c48a77e2": {
+      "id": "e8d7c48a77e2",
+      "central_wavelength_um": 1.4154,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "ea08288d956e": {
+      "id": "ea08288d956e",
+      "central_wavelength_um": 1.8276,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ead981c63a6d": {
+      "id": "ead981c63a6d",
+      "central_wavelength_um": 1.2162,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "eb6e8900cd3c": {
+      "id": "eb6e8900cd3c",
+      "central_wavelength_um": 1.4367,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ec5c18758e40": {
+      "id": "ec5c18758e40",
+      "central_wavelength_um": 1.6536,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ecbb6f5e3760": {
+      "id": "ecbb6f5e3760",
+      "central_wavelength_um": 1.2033,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ecd88c2a3ddd": {
+      "id": "ecd88c2a3ddd",
+      "central_wavelength_um": 1.2427,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "eed668050e84": {
+      "id": "eed668050e84",
+      "central_wavelength_um": 1.0207,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "ef972199ffa5": {
+      "id": "ef972199ffa5",
+      "central_wavelength_um": 2.2209,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f00b4b947a44": {
+      "id": "f00b4b947a44",
+      "central_wavelength_um": 1.557,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "f062a308d6fa": {
+      "id": "f062a308d6fa",
+      "central_wavelength_um": 0.8314,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "f0dac80ab3bd": {
+      "id": "f0dac80ab3bd",
+      "central_wavelength_um": 1.9918,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f14cbae72ec4": {
+      "id": "f14cbae72ec4",
+      "central_wavelength_um": 1.1635,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f16251340c05": {
+      "id": "f16251340c05",
+      "central_wavelength_um": 1.7817,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f28cca8342b3": {
+      "id": "f28cca8342b3",
+      "central_wavelength_um": 2.1749,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f30dca069792": {
+      "id": "f30dca069792",
+      "central_wavelength_um": 1.3343,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f3c9d57c0f83": {
+      "id": "f3c9d57c0f83",
+      "central_wavelength_um": 1.2203,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f49a90380f39": {
+      "id": "f49a90380f39",
+      "central_wavelength_um": 1.6392,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "f4b11a34aa74": {
+      "id": "f4b11a34aa74",
+      "central_wavelength_um": 1.3263,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "f5b567cb5169": {
+      "id": "f5b567cb5169",
+      "central_wavelength_um": 1.3033,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f658a6a5394b": {
+      "id": "f658a6a5394b",
+      "central_wavelength_um": 2.2858,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "f83e725502c0": {
+      "id": "f83e725502c0",
+      "central_wavelength_um": 1.2737,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "fa5d5fe16ac4": {
+      "id": "fa5d5fe16ac4",
+      "central_wavelength_um": 0.9348,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "fa951efa5da4": {
+      "id": "fa951efa5da4",
+      "central_wavelength_um": 1.6002,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "facff7ff73ce": {
+      "id": "facff7ff73ce",
+      "central_wavelength_um": 1.4548,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "fb3357c64ca1": {
+      "id": "fb3357c64ca1",
+      "central_wavelength_um": 1.4569,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "fb5930d51c48": {
+      "id": "fb5930d51c48",
+      "central_wavelength_um": 1.6752,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "fc2766c03738": {
+      "id": "fc2766c03738",
+      "central_wavelength_um": 1.2094,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "fcfff70f44f6": {
+      "id": "fcfff70f44f6",
+      "central_wavelength_um": 1.4912,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "fd0b96f836d1": {
+      "id": "fd0b96f836d1",
+      "central_wavelength_um": 1.8346,
+      "version": "7.0.5",
+      "release": "DR1"
+    },
+    "fe9c41f0121c": {
+      "id": "fe9c41f0121c",
+      "central_wavelength_um": 1.5069,
+      "version": "l2b-v27-2026-237",
+      "release": "DR1"
+    },
+    "fe9d6a2df91b": {
+      "id": "fe9d6a2df91b",
+      "central_wavelength_um": 1.6325,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "ff8e590128a0": {
+      "id": "ff8e590128a0",
+      "central_wavelength_um": 0.9829,
+      "version": "7.0.5",
+      "release": "QR3"
+    },
+    "ff944a123c2f": {
+      "id": "ff944a123c2f",
+      "central_wavelength_um": 1.2729,
+      "version": "7.0.5",
+      "release": "DR1"
     }
-  },
-  "targets": [
-    "M101",
-    "NGC 6543"
-  ],
-  "created_at": "2026-11-14 10:42:15Z",
-  "description": "Real SPHEREx cutouts from IRSA TAP for offline demonstration and testing."
+  }
 }
