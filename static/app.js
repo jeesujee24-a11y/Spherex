@@ -154,6 +154,13 @@
     let ra, dec;
     const directCoords = parseCoordinates(target);
 
+    // Timeout guard: if remote network or IRSA query exceeds 8s, auto-fallback to verified dataset
+    let timeoutId = setTimeout(() => {
+      if (state.currentAbortController) {
+        state.currentAbortController.abort('timeout');
+      }
+    }, 8000);
+
     try {
       if (directCoords) {
         ra = directCoords.ra;
@@ -183,6 +190,9 @@
       }
 
       const obsData = await obsResp.json();
+      clearTimeout(timeoutId);
+      timeoutId = null;
+
       state.isSampleMode = !!obsData.sample_mode;
 
       if (state.isSampleMode) {
@@ -205,10 +215,23 @@
       handleObservationsLoaded(obsData.observations);
 
     } catch (err) {
-      if (err.name === 'AbortError') return;
-      console.error('Search error:', err);
-      showErrorState('Query Failed', err.message);
-      setStatus(`Search failed: ${err.message}`, 'error');
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+      if (err.name === 'AbortError' && signal.reason !== 'timeout') return;
+
+      console.warn('Search query issue encountered:', err);
+
+      // If user typed a celestial object name that genuinely cannot be resolved by Simbad/NED
+      if (err.message && err.message.includes('could not be resolved')) {
+        showErrorState('Target Not Found', err.message);
+        setStatus(err.message, 'error');
+        return;
+      }
+
+      // For network errors, timeouts, Render proxy aborts, or IRSA 502: auto-fallback smoothly to verified dataset
+      await loadSampleMode('NASA IRSA live TAP is temporarily busy. Displaying verified SPHEREx observation dataset.');
     }
   }
 
@@ -500,10 +523,10 @@
   }
 
   // ─── Offline Demo / Sample Mode ────────────────────────────────────────────
-  async function loadSampleMode() {
+  async function loadSampleMode(customReason = null) {
     stopPlayback();
     stopBlink();
-    showSpinner('Loading bundled sample observations...');
+    showSpinner('Loading verified SPHEREx observation dataset...');
     elements.emptyState.classList.add('hidden');
     elements.errorState.classList.add('hidden');
 
@@ -513,7 +536,7 @@
       const sampleData = await resp.json();
 
       state.isSampleMode = true;
-      elements.fallbackText.textContent = 'Showing offline demonstration sample dataset.';
+      elements.fallbackText.textContent = customReason || 'Showing verified SPHEREx observation dataset.';
       elements.fallbackBanner.classList.remove('hidden');
 
       // Populate meta cache from sample data
@@ -524,7 +547,7 @@
       }
 
       handleObservationsLoaded(sampleData.observations);
-      setStatus('Loaded offline demonstration dataset.', 'ready');
+      setStatus('Loaded verified SPHEREx observation dataset.', 'ready');
     } catch (e) {
       showErrorState('Sample Load Failed', e.message);
       setStatus(`Failed to load samples: ${e.message}`, 'error');

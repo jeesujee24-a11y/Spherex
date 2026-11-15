@@ -351,7 +351,7 @@ async def get_observations(
         return Irsa.query_tap(query)
 
     try:
-        results = await asyncio.wait_for(asyncio.to_thread(_run_tap), timeout=12.0)
+        results = await asyncio.wait_for(asyncio.to_thread(_run_tap), timeout=6.0)
         table = results.to_table()
     except Exception as e:
         logger.warning(f"TAP query failed or timed out: {e}")
