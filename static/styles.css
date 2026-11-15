@@ -115,9 +115,26 @@ body {
 }
 
 .banner-warning {
-  background-color: rgba(245, 158, 11, 0.15);
-  border: 1px solid var(--accent-amber);
-  color: #fde68a;
+  background-color: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #bae6fd;
+}
+
+.banner-close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.3rem;
+  line-height: 1;
+  padding: 0 0.3rem;
+  opacity: 0.75;
+  transition: opacity 0.15s ease;
+}
+
+.banner-close:hover {
+  opacity: 1;
 }
 
 /* Cards */

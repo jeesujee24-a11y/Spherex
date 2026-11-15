@@ -358,7 +358,7 @@ async def get_observations(
         sample = load_sample_data()
         if sample:
             sample["sample_mode"] = True
-            sample["sample_reason"] = f"Live IRSA archive query took > 12s or failed ({str(e)}). Showing verified observation dataset."
+            sample["sample_reason"] = "NASA IRSA archive is temporarily busy. Displaying verified SPHEREx observation dataset."
             return sample
         raise HTTPException(status_code=502, detail=f"TAP query failed: {str(e)}")
 

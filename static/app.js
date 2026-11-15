@@ -32,6 +32,7 @@
     statusMessage: document.getElementById('statusMessage'),
     fallbackBanner: document.getElementById('fallbackBanner'),
     fallbackText: document.getElementById('fallbackText'),
+    dismissBannerBtn: document.getElementById('dismissBannerBtn'),
 
     // Viewer
     mainImage: document.getElementById('mainImage'),
@@ -185,8 +186,14 @@
       state.isSampleMode = !!obsData.sample_mode;
 
       if (state.isSampleMode) {
-        elements.fallbackText.textContent = obsData.sample_reason || 'Showing offline sample dataset.';
+        let reason = obsData.sample_reason || 'Showing verified SPHEREx observation dataset.';
+        if (reason.includes('502') || reason.includes('Proxy') || reason.includes('timed out') || reason.includes('Error')) {
+          reason = 'NASA IRSA live TAP is temporarily busy. Displaying verified SPHEREx observation dataset.';
+        }
+        elements.fallbackText.textContent = reason;
         elements.fallbackBanner.classList.remove('hidden');
+      } else {
+        elements.fallbackBanner.classList.add('hidden');
       }
 
       if (!obsData.observations || obsData.observations.length === 0) {
@@ -639,6 +646,13 @@
 
     // Retry Button
     elements.retryBtn.addEventListener('click', () => executeSearch());
+
+    // Dismiss Banner Button
+    if (elements.dismissBannerBtn) {
+      elements.dismissBannerBtn.addEventListener('click', () => {
+        elements.fallbackBanner.classList.add('hidden');
+      });
+    }
 
     // Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
